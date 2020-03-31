@@ -1,0 +1,11 @@
+httpsrv_fs.c:33:6:HTTPSRV_FS_init	16	static
+httpsrv_fs.c:48:21:HTTPSRV_FS_open	32	static
+httpsrv_fs.c:84:6:HTTPSRV_FS_close	16	static
+httpsrv_fs.c:103:9:HTTPSRV_FS_read	40	static
+httpsrv_fs.c:131:9:HTTPSRV_FS_fseek	48	static
+httpsrv_fs.c:204:9:HTTPSRV_FS_ioctl	32	static
+httpsrv_fs.c:279:16:httpsrv_fs_cmp	24	static
+httpsrv_fs.c:320:36:httpsrv_fs_open_file	24	static
+httpsrv_fs.c:359:17:httpsrv_fs_read	32	static
+httpsrv_fs.c:405:17:httpsrv_fs_move_file_pointer	16	static
+httpsrv_fs.c:426:8:HTTPSRV_FS_size	24	static

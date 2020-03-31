@@ -1,0 +1,6 @@
+httpsrv_base64.c:33:13:base64_encodeblock	24	static
+httpsrv_base64.c:41:7:base64_encode	40	static
+httpsrv_base64.c:78:7:base64_encode_binary	48	static
+httpsrv_base64.c:119:13:base64_decodeblock	16	static
+httpsrv_base64.c:126:7:base64_decode	40	static
+httpsrv_base64.c:173:6:isbase64	24	static

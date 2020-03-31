@@ -1,0 +1,3 @@
+sha256.c:412:5:mbedtls_sha256_ret	264	static
+sha256.c:442:6:mbedtls_sha256	24	static
+sha256.c:505:5:mbedtls_sha256_self_test	304	static

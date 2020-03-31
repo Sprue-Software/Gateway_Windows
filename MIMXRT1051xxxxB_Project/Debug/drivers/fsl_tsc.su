@@ -1,0 +1,11 @@
+fsl_clock.h:1042:20:CLOCK_ControlGate	32	static
+fsl_clock.h:1059:20:CLOCK_EnableClock	16	static
+fsl_clock.h:1069:20:CLOCK_DisableClock	16	static
+fsl_tsc.c:40:17:TSC_GetInstance	24	static
+fsl_tsc.c:64:6:TSC_Init	24	static
+fsl_tsc.c:92:6:TSC_Deinit	16	static
+fsl_tsc.c:114:6:TSC_GetDefaultConfig	16	static
+fsl_tsc.c:134:10:TSC_GetMeasureValue	24	static
+fsl_tsc.c:163:6:TSC_DebugTriggerSignalToADC	16	static
+fsl_tsc.c:186:6:TSC_DebugEnableDetection	16	static
+fsl_tsc.c:223:6:TSC_DebugSetPortMode	24	static
