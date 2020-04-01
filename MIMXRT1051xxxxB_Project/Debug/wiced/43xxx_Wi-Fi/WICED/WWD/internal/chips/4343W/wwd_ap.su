@@ -1,0 +1,8 @@
+wwd_ap.c:123:14:wwd_handle_apsta_event	32	static
+wwd_ap.c:148:21:internal_ap_init	88	static
+wwd_ap.c:366:14:wwd_wifi_ap_init	40	static
+wwd_ap.c:380:14:wwd_wifi_ap_up	24	static
+wwd_ap.c:413:14:wwd_wifi_start_ap	40	static
+wwd_ap.c:422:14:wwd_wifi_stop_ap	32	static
+wwd_ap.c:485:14:wwd_wifi_set_ampdu_parameters	8	static
+wwd_ap.c:493:14:wwd_wifi_set_block_ack_window_size	16	static

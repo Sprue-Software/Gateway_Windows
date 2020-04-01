@@ -1,4 +1,11 @@
+core_cm7.h:1902:22:__NVIC_EnableIRQ	8	static
+fsl_clock.h:1042:20:CLOCK_ControlGate	32	static
+fsl_clock.h:1059:20:CLOCK_EnableClock	16	static
+fsl_clock.h:1193:24:CLOCK_GetRtcFreq	0	static
+fsl_common.h:528:28:DisableGlobalIRQ	8	static
+fsl_common.h:559:24:EnableGlobalIRQ	16	static
+fsl_rtwdog.h:383:20:RTWDOG_Refresh	24	static
 watchdog.c:98:6:RTWDOG_IRQHandler	8	static
-watchdog.c:113:6:watchdog_init	16	static
+watchdog.c:113:6:watchdog_init	24	static
 watchdog.c:141:6:watchdog_start	8	static
-watchdog.c:159:6:watchdog_refresh	8	static
+watchdog.c:159:6:watchdog_refresh	16	static

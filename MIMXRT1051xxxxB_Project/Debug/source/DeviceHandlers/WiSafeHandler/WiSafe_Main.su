@@ -1,6 +1,8 @@
-WiSafe_Main.c:122:13:WiSafe_MessageQueueListener	280	static
-WiSafe_Main.c:261:17:WiSafe_Start	72	static
-WiSafe_Main.c:312:6:WiSafe_End	8	static
-WiSafe_Main.c:325:6:WiSafe_TimerCallback	16	static
-WiSafe_Main.c:343:6:WiSafe_FaultTimerCallback	16	static
-WiSafe_Main.c:361:6:WiSafe_AlarmTimerCallback	16	static
+WiSafe_Main.c:40:13:CreateGatewayProperties	56	static
+WiSafe_Main.c:66:13:SubscribeToCommandProperties	64	static
+WiSafe_Main.c:122:13:WiSafe_MessageQueueListener	352	static
+WiSafe_Main.c:261:17:WiSafe_Start	48	static
+WiSafe_Main.c:312:6:WiSafe_End	16	static
+WiSafe_Main.c:325:6:WiSafe_TimerCallback	32	static
+WiSafe_Main.c:343:6:WiSafe_FaultTimerCallback	32	static
+WiSafe_Main.c:361:6:WiSafe_AlarmTimerCallback	32	static

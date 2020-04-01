@@ -9,7 +9,7 @@
 
 #define _LOGIC_C_
 
-//#include "wisafe_main.h"
+#include <wisafe_main.h>
 #include "fsl_gpio.h"
 #include "fsl_device_registers.h"
 #include "fsl_debug_console.h"

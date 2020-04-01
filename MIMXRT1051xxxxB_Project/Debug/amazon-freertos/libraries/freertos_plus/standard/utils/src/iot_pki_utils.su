@@ -1,2 +1,2 @@
-iot_pki_utils.c:39:5:PKI_mbedTLSSignatureToPkcs11Signature	16	static
-iot_pki_utils.c:113:5:PKI_pkcs11SignatureTombedTLSSignature	80	static
+iot_pki_utils.c:39:5:PKI_mbedTLSSignatureToPkcs11Signature	32	static
+iot_pki_utils.c:113:5:PKI_pkcs11SignatureTombedTLSSignature	88	static

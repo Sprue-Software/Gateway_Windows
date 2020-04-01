@@ -1,8 +1,9 @@
-LSD_Types.c:53:17:LSD_ConvertTypedDataToJsonValue	48	static
-LSD_Types.c:125:17:LSD_ConvertStringToTypedData	24	static
-LSD_Types.c:167:17:LSD_GetThingName	0	static
-LSD_Types.c:228:17:LSD_GetThingFromNameString	32	static
-LSD_Types.c:342:8:LSD_EnsoErrorCode_eToString	0	static
-LSD_Types.c:479:8:LSD_ValueType2s	0	static
-LSD_Types.c:502:8:LSD_Value2s	24	static
-LSD_Types.c:542:8:LSD_Group2s	0	static
+LSD_Types.c:53:17:LSD_ConvertTypedDataToJsonValue	56	static
+LSD_Types.c:125:17:LSD_ConvertStringToTypedData	40	static
+LSD_Types.c:167:17:LSD_GetThingName	24	static
+LSD_Types.c:228:17:LSD_GetThingFromNameString	48	static
+LSD_Types.c:342:8:LSD_EnsoErrorCode_eToString	8	static
+LSD_Types.c:401:12:_LSD_StringValueToJson	24	static
+LSD_Types.c:479:8:LSD_ValueType2s	8	static
+LSD_Types.c:502:8:LSD_Value2s	40	static
+LSD_Types.c:542:8:LSD_Group2s	8	static

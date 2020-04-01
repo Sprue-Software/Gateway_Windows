@@ -8,13 +8,15 @@
 #ifndef _LOGIC_H_
 #define _LOGIC_H_
 
+//nishi
+#define _LOGIC_C_
 
 #ifdef _LOGIC_C_
 #undef _LOGIC_C_
 
-#define MSGBUFLEN 					24
-
 #include "board.h"
+#include <wisafe_main.h>
+
 volatile uint8_t PropagationCount;				// counts 3-second attempts to propagate
 volatile uint8_t StatusRequestTargetSID;		// target of MSG_STATUSREQ rumour, if any
 volatile uint8_t StatusReplyTargetSID;			// target of MSG_STATUSREPLY rumour, if any

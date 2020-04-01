@@ -13,7 +13,7 @@
 #ifndef _APP_TYPES_H_
 #define _APP_TYPES_H_
 
-#include "LSD_Types.h"
+#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/LocalShadow/Api/LSD_Types.h"
 
 
 /*!****************************************************************************

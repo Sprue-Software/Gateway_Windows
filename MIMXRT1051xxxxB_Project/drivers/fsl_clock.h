@@ -840,8 +840,8 @@ typedef enum _clock_div
 /*! @brief USB clock source definition. */
 typedef enum _clock_usb_src
 {
-    kCLOCK_Usb480M      = 0,           /*!< Use 480M.      */
-    kCLOCK_UsbSrcUnused = 0xFFFFFFFFU, /*!< Used when the function does not
+    kCLOCK_Usb480M      = 0,                /*!< Use 480M.      */
+    kCLOCK_UsbSrcUnused = (int)0xFFFFFFFFU, /*!< Used when the function does not
                                             care the clock source. */
 } clock_usb_src_t;
 

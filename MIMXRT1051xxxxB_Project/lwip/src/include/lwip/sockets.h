@@ -515,16 +515,18 @@ struct pollfd
 /** LWIP_TIMEVAL_PRIVATE: if you want to use the struct timeval provided
  * by your system, set this to 0 and include <sys/time.h> in cc.h */
 #ifndef LWIP_TIMEVAL_PRIVATE
-#define LWIP_TIMEVAL_PRIVATE 0
+#define LWIP_TIMEVAL_PRIVATE 1
 #endif
 
+#if 0
 #if LWIP_TIMEVAL_PRIVATE
+
 struct timeval {
   long    tv_sec;         /* seconds */
   long    tv_usec;        /* and microseconds */
 };
 #endif /* LWIP_TIMEVAL_PRIVATE */
-
+#endif //Nishi
 #define lwip_socket_init() /* Compatibility define, no init needed. */
 void lwip_socket_thread_init(void); /* LWIP_NETCONN_SEM_PER_THREAD==1: initialize thread-local semaphore */
 void lwip_socket_thread_cleanup(void); /* LWIP_NETCONN_SEM_PER_THREAD==1: destroy thread-local semaphore */
@@ -597,8 +599,7 @@ int lwip_socket(int domain, int type, int protocol);
 ssize_t lwip_write(int s, const void *dataptr, size_t size);
 ssize_t lwip_writev(int s, const struct iovec *iov, int iovcnt);
 #if LWIP_SOCKET_SELECT
-int lwip_select(int maxfdp1, fd_set *readset, fd_set *writeset, fd_set *exceptset,
-                struct timeval *timeout);
+int lwip_select(int maxfdp1, fd_set *readset, fd_set *writeset, fd_set *exceptset,struct timeval *timeout);
 #endif
 #if LWIP_SOCKET_POLL
 int lwip_poll(struct pollfd *fds, nfds_t nfds, int timeout);

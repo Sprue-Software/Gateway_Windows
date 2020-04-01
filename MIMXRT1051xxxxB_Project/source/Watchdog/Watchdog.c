@@ -19,9 +19,9 @@
 #include <string.h>
 //#include <unistd.h>
 
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/Logger/LOG_Api.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/OSAL_Api.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/OSAL_Debug.h"
+#include "LOG_Api.h"
+#include "OSAL_Api.h"
+#include "OSAL_Debug.h"
 extern int errno;
 bool OK = true;
 
@@ -30,7 +30,7 @@ bool OK = true;
  *
  * \return OK
  */
-bool Check_all_is_OK_test(void)
+bool Check_all_is_OK(void)
 {
     return OK;
 }
@@ -39,7 +39,7 @@ bool Check_all_is_OK_test(void)
  * \brief Watchdog timer handler
  * 
  * Checks sleeping for half of the watchdog period and refreshing the watchdog
- * if Check_all_is_OK_test returns true.
+ * if Check_all_is_OK returns true.
  *
  * \param param not used
  *
@@ -49,7 +49,7 @@ bool Check_all_is_OK_test(void)
 void Watchdog(void* param)
 {
     (void)param;
-    if (Check_all_is_OK_test())
+    if (Check_all_is_OK())
     {
         LOG_Trace("WDT Refresh");
         OSAL_watchdog_refresh();

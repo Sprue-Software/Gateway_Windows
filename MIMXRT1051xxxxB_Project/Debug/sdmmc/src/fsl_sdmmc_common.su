@@ -1,0 +1,16 @@
+fsl_usdhc.h:934:24:USDHC_GetPresentStatusFlags	8	static
+fsl_usdhc.h:960:20:USDHC_ForceClockOn	8	static
+fsl_usdhc.h:1208:20:UDSHC_SelectVoltage	8	static
+fsl_usdhc.h:1248:20:USDHC_EnableAutoTuning	8	static
+fsl_usdhc.h:1316:24:USDHC_GetExecuteStdTuningStatus	8	static
+fsl_usdhc.h:1326:24:USDHC_CheckStdTuningResult	8	static
+fsl_usdhc.h:1336:24:USDHC_CheckTuningError	8	static
+fsl_sdmmc_common.c:25:10:SDMMC_SelectCard	72	static
+fsl_sdmmc_common.c:58:10:SDMMC_SendApplicationCommand	72	static
+fsl_sdmmc_common.c:86:10:SDMMC_SetBlockCount	72	static
+fsl_sdmmc_common.c:107:10:SDMMC_GoIdle	64	static
+fsl_sdmmc_common.c:126:10:SDMMC_SetBlockSize	72	static
+fsl_sdmmc_common.c:147:10:SDMMC_SetCardInactive	64	static
+fsl_sdmmc_common.c:168:10:SDMMC_SwitchVoltage	64	static
+fsl_sdmmc_common.c:246:10:SDMMC_SwitchToVoltage	72	static
+fsl_sdmmc_common.c:334:10:SDMMC_ExecuteTuning	224	static

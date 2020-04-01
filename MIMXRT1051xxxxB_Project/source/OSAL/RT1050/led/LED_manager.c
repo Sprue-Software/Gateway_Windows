@@ -23,7 +23,7 @@
 #include "LOG_Api.h"
 #include "LED_manager.h"
 #include "power.h"
-#include "C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source\OSAL\RT1050\wisafe_drv\wisafe_main.h"
+#include "wisafe_main.h"
 
 #include "fsl_gpio.h"
 #include "board.h"
@@ -114,12 +114,12 @@ static void led_manager(void *arg)
         led_state[CONNECTION_LED_ID] = LEDSTATE_OFF;
 
 #if LEARN_IN_BUTTON
-     //   wisafeLearnInStatus = getWisafeLearnInStatus();
+        wisafeLearnInStatus = getWisafeLearnInStatus();
 #else
         wisafeLearnInStatus = LEARN_INACTIVE;
 #endif
 
-        if (wisafeLearnInStatus == LEARN_ACTIVE) //nishi
+        if (getWisafeButtonStatus() == LEARN_ACTIVE)
         {
             led_state[POWER_LED_ID] = LEDSTATE_ON;
             led_state[ETHERNET_LED_ID] = LEDSTATE_ON;
@@ -210,10 +210,10 @@ static void led_manager(void *arg)
                 led_state[CONNECTION_LED_ID] = enso_led_state[CONNECTION_LED_ID];
 //                led_state[ETHERNET_LED_ID] = enso_led_state[ETHERNET_LED_ID];
                 //illuminate connection LED if usb or ethernet link up - ignore enso control
-         //nishi       if (network_link_status())
-                //{
-                //    led_state[ETHERNET_LED_ID] = LEDSTATE_ON;
-                //}
+                if (network_link_status())
+                {
+                    led_state[ETHERNET_LED_ID] = LEDSTATE_ON;
+                }
             }
         }
         set_Led(POWER_LED_ID,led_state[POWER_LED_ID]);

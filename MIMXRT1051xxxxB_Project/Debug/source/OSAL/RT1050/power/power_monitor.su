@@ -1,4 +1,8 @@
-power_monitor.c:116:13:power_monitor	56	static
+fsl_gpio.h:101:20:GPIO_WritePinOutput	24	static
+fsl_gpio.h:174:24:GPIO_PinRead	16	static
+fsl_iomuxc.h:1122:20:IOMUXC_SetPinConfig	16	static
 power_monitor.c:64:6:isMainsConnected	0	static
 power_monitor.c:73:6:toggleTabletUsbIdPin	16	static
+power_monitor.c:90:13:toggleTabletUsbIdPinToReconnectToWg	24	static
+power_monitor.c:116:13:power_monitor	64	static
 power_monitor.c:235:5:initPowerMonitor	32	static

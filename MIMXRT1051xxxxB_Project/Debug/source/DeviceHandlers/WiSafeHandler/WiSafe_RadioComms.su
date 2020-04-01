@@ -1,4 +1,4 @@
 WiSafe_RadioComms.c:45:13:WiSafe_RadioCommsThread	40	static
-WiSafe_RadioComms.c:84:6:WiSafe_RadioCommsInit	8	static
-WiSafe_RadioComms.c:100:6:WiSafe_RadioCommsClose	8	static
-WiSafe_RadioComms.c:125:6:WiSafe_RadioCommsTx	16	static
+WiSafe_RadioComms.c:84:6:WiSafe_RadioCommsInit	16	static
+WiSafe_RadioComms.c:100:6:WiSafe_RadioCommsClose	16	static
+WiSafe_RadioComms.c:125:6:WiSafe_RadioCommsTx	24	static

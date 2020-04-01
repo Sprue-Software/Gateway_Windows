@@ -1,2 +1,2 @@
 sntp_client.c:6:6:sntp_set_system_time_us	16	static
-sntp_client.c:19:6:sntp_get_lasttime	8	static
+sntp_client.c:19:6:sntp_get_lasttime	24	static

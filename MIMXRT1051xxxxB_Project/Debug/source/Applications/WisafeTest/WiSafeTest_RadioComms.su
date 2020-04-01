@@ -1,7 +1,7 @@
-WiSafeTest_RadioComms.c:49:6:WiSafe_InjectPacket	16	static
+WiSafeTest_RadioComms.c:49:6:WiSafe_InjectPacket	40	static
 WiSafeTest_RadioComms.c:87:6:WiSafe_RadioCommsInit	0	static
 WiSafeTest_RadioComms.c:95:6:WiSafe_RadioCommsClose	0	static
-WiSafeTest_RadioComms.c:105:6:WiSafe_RadioCommsTx	48	static
-WiSafeTest_RadioComms.c:152:6:WiSafe_RegisterExpectedTX	0	static
+WiSafeTest_RadioComms.c:105:6:WiSafe_RadioCommsTx	56	static
+WiSafeTest_RadioComms.c:152:6:WiSafe_RegisterExpectedTX	8	static
 WiSafeTest_RadioComms.c:158:6:WiSafe_WaitForExpectedTX	24	static
-WiSafeTest_RadioComms.c:169:6:WiSafe_RegisterAndWaitForExpectedTX	24	static
+WiSafeTest_RadioComms.c:169:6:WiSafe_RegisterAndWaitForExpectedTX	16	static

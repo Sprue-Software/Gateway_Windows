@@ -1,6 +1,6 @@
-AWS_Timestamps.c:202:24:_TimestampCheck	64	static
-AWS_Timestamps.c:142:13:_TimestampCorrectionQueueListener	264	static
-AWS_Timestamps.c:259:13:_PeriodicCheckTime	64	static
-AWS_Timestamps.c:247:13:_PeriodicCheckTimeCB	0	static
-AWS_Timestamps.c:68:17:AWS_TimestampInit	48	static
+AWS_Timestamps.c:68:17:AWS_TimestampInit	72	static
 AWS_Timestamps.c:128:6:AWS_IsTimeValid	0	static
+AWS_Timestamps.c:142:13:_TimestampCorrectionQueueListener	272	static
+AWS_Timestamps.c:202:24:_TimestampCheck	64	static
+AWS_Timestamps.c:247:13:_PeriodicCheckTimeCB	16	static
+AWS_Timestamps.c:259:13:_PeriodicCheckTime	56	static

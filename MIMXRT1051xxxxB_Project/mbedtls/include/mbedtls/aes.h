@@ -76,7 +76,7 @@
 extern "C" {
 #endif
 
-#if !defined(MBEDTLS_AES_ALT)
+#if defined(MBEDTLS_AES_ALT)
 // Regular implementation
 //
 
@@ -672,3 +672,4 @@ int mbedtls_aes_self_test( int verbose );
 #endif
 
 #endif /* aes.h */
+

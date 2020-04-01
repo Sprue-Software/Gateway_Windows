@@ -14,10 +14,15 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+amazon-freertos/demos/demo_runner \
+amazon-freertos/demos/dev_mode_key_provisioning/src \
+amazon-freertos/demos/network_manager \
+amazon-freertos/demos/shadow \
 amazon-freertos/freertos_kernel \
 amazon-freertos/freertos_kernel/portable/GCC/ARM_CM4F \
 amazon-freertos/freertos_kernel/portable/MemMang \
 amazon-freertos/libraries/3rdparty/jsmn \
+amazon-freertos/libraries/3rdparty/mbedtls/utils \
 amazon-freertos/libraries/abstractions/pkcs11/mbedtls \
 amazon-freertos/libraries/abstractions/platform/freertos \
 amazon-freertos/libraries/c_sdk/aws/shadow/src \
@@ -27,14 +32,12 @@ amazon-freertos/libraries/c_sdk/standard/common/taskpool \
 amazon-freertos/libraries/c_sdk/standard/mqtt/src \
 amazon-freertos/libraries/c_sdk/standard/serializer/src \
 amazon-freertos/libraries/c_sdk/standard/serializer/src/json \
-amazon-freertos/libraries/freertos_plus/aws/greengrass/src \
 amazon-freertos/libraries/freertos_plus/standard/crypto/src \
 amazon-freertos/libraries/freertos_plus/standard/pkcs11/src \
 amazon-freertos/libraries/freertos_plus/standard/tls/src \
 amazon-freertos/libraries/freertos_plus/standard/utils/src \
 amazon-freertos/vendors/nxp/mflash/mimxrt1052 \
 amazon-freertos/vendors/nxp/pkcs11/common \
-amazon-freertos/vendors/nxp/secure_sockets/lwip \
 board \
 component/lists \
 component/serial_manager \
@@ -44,9 +47,12 @@ drivers/freertos \
 drivers \
 mbedtls/library \
 mbedtls/port/ksdk \
+sdmmc/port \
+sdmmc/src \
 source/Applications/Common \
 source/Applications/WisafeGateway/AmebaWISAFESimulation \
 source/Applications/WisafeGateway \
+source/Applications/WisafeGateway/armgcc \
 source/CloudComms/AWS \
 source/CloudComms \
 source/DeviceHandlers/Common \
@@ -62,10 +68,14 @@ source/KeyStore/FreeRTOS \
 source/LocalShadow/Api \
 source/LocalShadow/ObjectStore \
 source/Logger \
-source \
+source/OSAL \
 source/OSAL/RT1050 \
+source/OSAL/RT1050/aws/platform/RT1050/common \
+source/OSAL/RT1050/aws/platform/RT1050/mbedtls \
+source/OSAL/RT1050/board \
 source/OSAL/RT1050/efs \
 source/OSAL/RT1050/led \
+source/OSAL/RT1050/main \
 source/OSAL/RT1050/ota \
 source/OSAL/RT1050/power \
 source/OSAL/RT1050/sntp \
@@ -76,6 +86,17 @@ source/OSAL/RT1050/watchdog \
 source/OSAL/RT1050/wisafe_drv \
 source/Storage \
 source/Watchdog \
+source \
 startup \
 utilities \
+wiced/43xxx_Wi-Fi/WICED/RTOS/FreeRTOS/WWD \
+wiced/43xxx_Wi-Fi/WICED/WWD/internal/bus_protocols/SDIO \
+wiced/43xxx_Wi-Fi/WICED/WWD/internal/bus_protocols \
+wiced/43xxx_Wi-Fi/WICED/WWD/internal/chips/4343W \
+wiced/43xxx_Wi-Fi/WICED/WWD/internal \
+wiced/43xxx_Wi-Fi/WICED/internal \
+wiced/43xxx_Wi-Fi/WICED/network/LwIP/WWD \
+wiced/43xxx_Wi-Fi/WICED/platform/MCU/LPC/WWD \
+wiced/43xxx_Wi-Fi/WICED/platform/MCU \
+xip \
 

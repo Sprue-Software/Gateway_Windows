@@ -1,0 +1,2 @@
+wwd_clm.c:76:12:wwd_download2dongle	48	static
+wwd_clm.c:101:14:wwd_process_clm_data	80	static

@@ -1,5 +1,6 @@
+mflash_drv.h:32:24:mflash_drv_is_sector_aligned	8	static
 mflash_file.c:27:6:mflash_is_initialized	0	static
-mflash_file.c:32:12:mflash_init	8	static
+mflash_file.c:32:12:mflash_init	24	static
 mflash_file.c:69:9:mflash_find_file	24	static
-mflash_file.c:96:12:mflash_save_file	544	static
-mflash_file.c:161:12:mflash_read_file	24	static
+mflash_file.c:96:12:mflash_save_file	632	static
+mflash_file.c:161:12:mflash_read_file	104	static

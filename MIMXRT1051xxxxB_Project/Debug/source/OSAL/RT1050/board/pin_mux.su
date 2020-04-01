@@ -1,0 +1,10 @@
+fsl_clock.h:1042:20:CLOCK_ControlGate	32	static
+fsl_clock.h:1059:20:CLOCK_EnableClock	16	static
+fsl_iomuxc.h:1090:20:IOMUXC_SetPinMux	16	static
+fsl_iomuxc.h:1122:20:IOMUXC_SetPinConfig	16	static
+fsl_iomuxc.h:1142:20:IOMUXC_EnableMode	16	static
+fsl_gpio.h:101:20:GPIO_WritePinOutput	24	static
+fsl_gpio.h:174:24:GPIO_PinRead	16	static
+pin_mux.c:73:6:BOARD_InitPins	24	static
+pin_mux.c:441:13:delay	16	static
+pin_mux.c:451:6:enable_wired_ethernet	24	static

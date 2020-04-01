@@ -38,6 +38,7 @@
  */
 
 #include "lwip/opt.h"
+#define LWIP_SOCKET 1 //Nishi
 
 #if LWIP_SOCKET /* don't build if not configured for use in lwipopts.h */
 
@@ -191,12 +192,15 @@ static void sockaddr_to_ipaddr_port(const struct sockaddr *sockaddr, ip_addr_t *
 #define LWIP_SO_SNDRCVTIMEO_SET(optval, val) (*(int *)(optval) = (val))
 #define LWIP_SO_SNDRCVTIMEO_GET_MS(optval)   ((long)*(const int*)(optval))
 #else
+//Nishi
+#if 0
 #define LWIP_SO_SNDRCVTIMEO_OPTTYPE struct timeval
 #define LWIP_SO_SNDRCVTIMEO_SET(optval, val)  do { \
   u32_t loc = (val); \
   ((struct timeval *)(optval))->tv_sec = (long)((loc) / 1000U); \
   ((struct timeval *)(optval))->tv_usec = (long)(((loc) % 1000U) * 1000U); }while(0)
 #define LWIP_SO_SNDRCVTIMEO_GET_MS(optval) ((((const struct timeval *)(optval))->tv_sec * 1000) + (((const struct timeval *)(optval))->tv_usec / 1000))
+#endif
 #endif
 
 
@@ -1959,8 +1963,7 @@ lwip_select_dec_sockets_used(int maxfdp, fd_set *used_sockets)
 #define lwip_select_dec_sockets_used(maxfdp1, used_sockets)
 #endif /* LWIP_NETCONN_FULLDUPLEX */
 
-int
-lwip_select(int maxfdp1, fd_set *readset, fd_set *writeset, fd_set *exceptset,
+int lwip_select(int maxfdp1, fd_set *readset, fd_set *writeset, fd_set *exceptset,
             struct timeval *timeout)
 {
   u32_t waitres = 0;

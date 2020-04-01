@@ -55,7 +55,7 @@
  */
 static time_t OSAL_seconds;
 
-bool test_OK = true;
+bool OK = true;
 
 /**
  * \brief Check_all_is_OK
@@ -64,7 +64,7 @@ bool test_OK = true;
  */
 bool Check_all_is_OK(void)
 {
-    return test_OK;
+    return OK;
 }
 
 
@@ -750,7 +750,7 @@ void OSAL_watchdog_refresh(void)
 
 void OSAL_watchdog_suspend_refresh(void)
 {
-    test_OK = false;
+    OK = false;
 }
 
 Handle_t OSAL_StoreOpen(const char * storeName, OSAL_AccessMode_e accessMode)

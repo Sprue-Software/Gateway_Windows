@@ -8,7 +8,7 @@
 #ifndef _RADIO_H_
 #define _RADIO_H_
 
-#include "wisafe_main.h"
+
 #define RADIO_LPSPI_MASTER_BASEADDR             (LPSPI3)
 #define FRAME_TRANSFER_NOT_COMPLETED            ((RADIO_LPSPI_MASTER_BASEADDR->SR & 0x00000200) == 0)
 
