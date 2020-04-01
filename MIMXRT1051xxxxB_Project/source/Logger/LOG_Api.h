@@ -15,7 +15,7 @@
 #define _LOG_API_H_
 
 #include <stdbool.h>
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/OSAL_Api.h"
+#include "OSAL_Api.h"
 
 typedef struct
 {

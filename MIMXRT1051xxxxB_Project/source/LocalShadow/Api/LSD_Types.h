@@ -17,7 +17,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/OSAL_Types.h"
+#include "OSAL_Types.h"
 
 /*!****************************************************************************
  * Constants

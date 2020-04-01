@@ -1,4 +1,0 @@
-wisafe_drv.c:54:6:wisafedrv_init	24	static
-wisafe_drv.c:64:6:wisafedrv_read	56	static
-wisafe_drv.c:109:6:wisafedrv_write	56	static
-wisafe_drv.c:140:6:wisafedrv_close	24	static

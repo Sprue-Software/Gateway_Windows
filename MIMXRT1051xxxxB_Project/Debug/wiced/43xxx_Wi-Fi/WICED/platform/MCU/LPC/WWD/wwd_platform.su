@@ -1,9 +1,0 @@
-wwd_platform.c:88:13:host_platform_wifi_pwr_pin_init	16	static
-wwd_platform.c:93:13:host_platform_wl_reg_on_set_low	8	static
-wwd_platform.c:98:13:host_platform_wl_reg_on_set_high	8	static
-wwd_platform.c:113:14:host_platform_init	16	static
-wwd_platform.c:129:14:host_platform_deinit	8	static
-wwd_platform.c:136:6:host_platform_reset_wifi	16	static
-wwd_platform.c:152:6:host_platform_power_wifi	8	static
-wwd_platform.c:157:14:host_platform_init_wlan_powersave_clock	0	static
-wwd_platform.c:170:14:host_platform_is_in_interrupt_context	8	static

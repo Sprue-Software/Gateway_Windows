@@ -14,7 +14,7 @@
 #ifndef OSAL_TYPES_H
 #define OSAL_TYPES_H
 
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/RT1050/Platform.h"
+#include "../OSAL/RT1050/Platform.h"
 
 typedef Platform_Handle_t Handle_t;
 typedef Platform_Mutex_t Mutex_t;

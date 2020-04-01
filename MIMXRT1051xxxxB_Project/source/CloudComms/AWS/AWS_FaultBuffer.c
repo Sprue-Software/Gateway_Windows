@@ -467,7 +467,7 @@ static void _PeriodicWorker(void* p)
         {
             // No comms until time is valid
         }
-        else if (AWS_GetHeadOfDeleteQueue(&unused))
+        else if (1 /*AWS_GetHeadOfDeleteQueue(&unused)*/)
         {
             // Send device deletes first before any deltas
         }

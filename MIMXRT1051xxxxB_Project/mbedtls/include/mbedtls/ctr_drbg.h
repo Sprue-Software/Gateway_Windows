@@ -137,7 +137,6 @@ typedef struct mbedtls_ctr_drbg_context
                                      seed or reseed operation. */
     int reseed_interval;        /*!< The reseed interval. */
 
-    //nishi
     mbedtls_aes_context aes_ctx;        /*!< The AES context. */
 
     /*

@@ -38,7 +38,7 @@
 //#include "aws_iot_version.h"
 //#include "aws_iot_mqtt_client_interface.h"
 
-//#include "tinyprintf.h" //nishi
+#include "tinyprintf.h" //nishi
 
 //#include "watchdog.h"
 
@@ -55,7 +55,7 @@
  */
 static time_t OSAL_seconds;
 
-bool OK = true;
+bool test_OK = true;
 
 /**
  * \brief Check_all_is_OK
@@ -64,7 +64,7 @@ bool OK = true;
  */
 bool Check_all_is_OK(void)
 {
-    return OK;
+    return test_OK;
 }
 
 
@@ -750,7 +750,7 @@ void OSAL_watchdog_refresh(void)
 
 void OSAL_watchdog_suspend_refresh(void)
 {
-    OK = false;
+    test_OK = false;
 }
 
 Handle_t OSAL_StoreOpen(const char * storeName, OSAL_AccessMode_e accessMode)

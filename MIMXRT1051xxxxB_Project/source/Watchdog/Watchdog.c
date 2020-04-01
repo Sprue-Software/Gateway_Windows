@@ -30,7 +30,7 @@ bool OK = true;
  *
  * \return OK
  */
-bool Check_all_is_OK(void)
+bool Check_all_is_OK_test(void)
 {
     return OK;
 }
@@ -39,7 +39,7 @@ bool Check_all_is_OK(void)
  * \brief Watchdog timer handler
  * 
  * Checks sleeping for half of the watchdog period and refreshing the watchdog
- * if Check_all_is_OK returns true.
+ * if Check_all_is_OK_test returns true.
  *
  * \param param not used
  *
@@ -49,7 +49,7 @@ bool Check_all_is_OK(void)
 void Watchdog(void* param)
 {
     (void)param;
-    if (Check_all_is_OK())
+    if (Check_all_is_OK_test())
     {
         LOG_Trace("WDT Refresh");
         OSAL_watchdog_refresh();

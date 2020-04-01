@@ -10,6 +10,7 @@
 #ifndef FSL_COMPONENT_ID
 #define FSL_COMPONENT_ID "platform.drivers.clock"
 #endif
+
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -273,11 +274,6 @@ uint32_t CLOCK_GetIpgFreq(void)
     return CLOCK_GetAhbFreq() / (((CCM->CBCDR & CCM_CBCDR_IPG_PODF_MASK) >> CCM_CBCDR_IPG_PODF_SHIFT) + 1U);
 }
 
-/*!
- * brief Gets the PER clock frequency.
- *
- * return  The PER clock frequency value in hertz.
- */
 uint32_t CLOCK_GetPerClkFreq(void)
 {
     uint32_t freq;

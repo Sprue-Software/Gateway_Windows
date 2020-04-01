@@ -15,8 +15,8 @@
 //#include <inttypes.h>
 #include "STO_Handler.h"
 #include "STO_Manager.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/Logger/LOG_Api.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/LocalShadow/Api/LSD_Api.h"
+#include "LOG_Api.h"
+#include "LSD_Api.h"
 #include <ECOM_Api.h>
 #include <ECOM_Messages.h>
 #include "HAL.h"

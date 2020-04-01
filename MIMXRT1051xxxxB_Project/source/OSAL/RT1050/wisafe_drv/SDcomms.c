@@ -7,14 +7,14 @@
 
 #define _SDCOMMS_C_
 
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/RT1050/wisafe_drv/wisafe_main.h"
+#include "wisafe_main.h"
 #include "fsl_gpio.h"
 #include "fsl_debug_console.h"
 #include "pin_mux.h"
 #include "clock_config.h"
 #include "SDcomms.h"
 #include "fsl_lpuart.h"
-#include <timer.h>
+#include <timer.h> //nishi
 #include "messages.h"
 #include "radio.h"
 #include "logic.h"

@@ -39,7 +39,7 @@ source/OSAL_Debug.o source/OSAL_Debug.d: ../source/OSAL_Debug.c \
  C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\amazon-freertos\freertos_kernel\include/queue.h \
  C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\lwip\src\include/lwip/debug.h \
  C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source/OSAL_Types.h \
- C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/RT1050/Platform.h \
+ c:\users\ndiwathe\documents\mcuxpressoide_11.1.1_3241\workspace\ensoagent_windows\source\osal\rt1050\platform.h \
  ../source/OSAL_Debug.h
 
 C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source\Logger/LOG_Api.h:
@@ -122,6 +122,6 @@ C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Window
 
 C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source/OSAL_Types.h:
 
-C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/RT1050/Platform.h:
+c:\users\ndiwathe\documents\mcuxpressoide_11.1.1_3241\workspace\ensoagent_windows\source\osal\rt1050\platform.h:
 
 ../source/OSAL_Debug.h:

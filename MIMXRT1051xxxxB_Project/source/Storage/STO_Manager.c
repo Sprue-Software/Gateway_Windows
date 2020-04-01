@@ -15,9 +15,9 @@
 //#include <inttypes.h>
 #include <stdio.h>
 #include <string.h>
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/Applications/Common/APP_Types.h"
+#include "APP_Types.h"
 #include "STO_Manager.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/Logger/LOG_Api.h"
+#include "LOG_Api.h"
 #include "OSAL_Api.h"
 #include "LSD_Api.h"
 #include "LSD_PropertyStore.h" // For LSD_RemoveProperty_Safe
@@ -161,12 +161,12 @@ EnsoErrorCode_e STO_WriteRecord(
     }
     EnsoErrorCode_e retVal = eecNoError;
     char buf[20];
-#if 0 //nishi
+
     LOG_Trace("Tag:%016"PRIx64"_%04x_%02x %08x %08x %02x %s Name:%-11.11s Len:%d Val:%s",
         tag->deviceId.deviceAddress, tag->deviceId.technology, tag->deviceId.childDeviceId,
         tag->propId, tag->propType, tag->propGroup, LSD_Group2s(tag->propGroup),
         cloudName, length, EnsoPropertyValue_u2s(buf, sizeof buf, tag->propType, valuep));
-#endif
+
     int32_t blobsize = 0;
     MemoryHandle_t blob = NULL;
     EnsoPropertyValue_u value = *valuep;
@@ -341,9 +341,9 @@ static EnsoErrorCode_e _LoadFromLog(Handle_t handle)
             // Was the device deleted? A deleted device is indicated with a property Id of zero (invalid property).
             if (0 == tag.propId)
             {
-#if 0 //nishi
+
                 LOG_Info("Deleting device %016"PRIx64"_%04x_%02x", tag.deviceId.deviceAddress, tag.deviceId.technology, tag.deviceId.childDeviceId);
-#endif
+
                 // We are calling an internal Local Shadow functions because we don't want to
                 // send notifications to the handlers.
                 retVal = LSD_RemoveAllPropertiesOfObject_Safe(&tag.deviceId);

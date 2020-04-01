@@ -13,7 +13,7 @@
 #ifndef _STO_MANAGER_H_
 #define _STO_MANAGER_H_
 
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/LocalShadow/Api/LSD_Types.h"
+#include "LSD_Types.h"
 
 
 /*!****************************************************************************

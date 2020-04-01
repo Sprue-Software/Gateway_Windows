@@ -1,6 +1,6 @@
-fsl_phy.c:34:10:PHY_Init	16	static
-fsl_phy.c:40:10:PHY_Write	16	static
-fsl_phy.c:46:10:PHY_Read	16	static
-fsl_phy.c:52:10:PHY_EnableLoopback	16	static
-fsl_phy.c:58:10:PHY_GetLinkStatus	16	static
-fsl_phy.c:64:10:PHY_GetLinkSpeedDuplex	16	static
+fsl_phy.c:34:10:PHY_Init	0	static
+fsl_phy.c:40:10:PHY_Write	0	static
+fsl_phy.c:46:10:PHY_Read	0	static
+fsl_phy.c:52:10:PHY_EnableLoopback	0	static
+fsl_phy.c:58:10:PHY_GetLinkStatus	0	static
+fsl_phy.c:64:10:PHY_GetLinkSpeedDuplex	0	static

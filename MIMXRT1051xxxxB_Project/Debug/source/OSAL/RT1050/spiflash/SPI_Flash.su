@@ -1,11 +1,5 @@
-fsl_flexspi.h:387:20:FLEXSPI_SoftwareReset	8	static
-SPI_Flash.c:142:17:flexspi_nor_write_enable	40	static
-SPI_Flash.c:161:17:flexspi_nor_wait_bus_busy	48	static
-SPI_Flash.c:202:17:flexspi_nor_flash_erase_sector	40	static
-SPI_Flash.c:234:17:flexspi_nor_flash_page_program	48	static
-SPI_Flash.c:269:13:flexspi_nor_init	64	static
-SPI_Flash.c:881:17:writeDataToFlash	32	static
-SPI_Flash.c:925:6:SPI_Flash_Init	24	static
-SPI_Flash.c:954:9:SPI_Flash_Read	24	static
-SPI_Flash.c:981:9:SPI_Flash_Write	40	static
-SPI_Flash.c:1014:9:SPI_Flash_Erase	32	static
+SPI_Flash.c:925:6:SPI_Flash_Init.part.0	80	static
+SPI_Flash.c:925:6:SPI_Flash_Init	0	static
+SPI_Flash.c:954:9:SPI_Flash_Read	16	static
+SPI_Flash.c:981:9:SPI_Flash_Write	88	static
+SPI_Flash.c:1014:9:SPI_Flash_Erase	64	static

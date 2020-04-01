@@ -86,7 +86,7 @@ source/MIMXRT1051xxxxB_Project.d: ../source/MIMXRT1051xxxxB_Project.c \
  ../source/OSAL_Api.h \
  C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\lwip\src\include\compat\stdc/errno.h \
  ../source/OSAL_Types.h \
- C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/RT1050/Platform.h \
+ c:\users\ndiwathe\documents\mcuxpressoide_11.1.1_3241\workspace\ensoagent_windows\source\osal\rt1050\platform.h \
  C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source\Logger/LOG_Api.h \
  C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source/OSAL_Api.h \
  C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source\KeyStore/KEY_Api.h \
@@ -275,7 +275,7 @@ C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Window
 
 ../source/OSAL_Types.h:
 
-C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/RT1050/Platform.h:
+c:\users\ndiwathe\documents\mcuxpressoide_11.1.1_3241\workspace\ensoagent_windows\source\osal\rt1050\platform.h:
 
 C:\Users\ndiwathe\Documents\MCUXpressoIDE_11.1.1_3241\workspace\EnsoAgent_Windows\source\Logger/LOG_Api.h:
 

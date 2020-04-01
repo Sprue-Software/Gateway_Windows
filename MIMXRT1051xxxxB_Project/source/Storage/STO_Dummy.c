@@ -15,9 +15,9 @@
 #include <stdio.h>
 #include <string.h>
 #include "STO_Manager.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/Logger/LOG_Api.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent/source/OSAL/OSAL_Api.h"
-#include "C:/Users/ndiwathe/Documents/MCUXpressoIDE_11.1.1_3241/workspace/EnsoAgent//source/LocalShadow/Api/LSD_Api.h"
+#include "LOG_Api.h"
+#include "OSAL_Api.h"
+#include "LSD_Api.h"
 #include <LSD_PropertyStore.h> // For LSD_RemoveProperty_Safe
 
 char * EnsoPropertyValue_u2s(char * buf, const size_t size, const EnsoPropertyType_t propType, const EnsoPropertyValue_u * value)

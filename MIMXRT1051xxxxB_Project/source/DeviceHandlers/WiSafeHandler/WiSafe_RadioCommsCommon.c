@@ -11,7 +11,7 @@
 *
 *****************************************************************************/
 
-//#include <fcntl.h> //nishi
+#include <fcntl.h>
 #include <stdlib.h>
 #include <stdint.h>
 //#include <unistd.h>

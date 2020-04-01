@@ -190,6 +190,7 @@
  * You can comment this macro if you provide your own alternate implementation. 
  * 
  */
+#define FSL_RTOS_FREE_RTOS 1
 #if USE_RTOS && defined(FSL_RTOS_FREE_RTOS)
 #define MBEDTLS_FREESCALE_FREERTOS_CALLOC_ALT
 #endif
@@ -334,7 +335,7 @@
 #if USE_RTOS && defined(FSL_RTOS_FREE_RTOS)
 #include "FreeRTOS.h"
 
-//void *pvPortCalloc(size_t num, size_t size); /*Calloc for HEAP3.*/   //Nishi
+void *pvPortCalloc(size_t num, size_t size); /*Calloc for HEAP3.*/
 
 #define MBEDTLS_PLATFORM_MEMORY
 #define MBEDTLS_PLATFORM_STD_CALLOC pvPortCalloc

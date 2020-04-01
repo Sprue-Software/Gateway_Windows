@@ -40,6 +40,6 @@ typedef struct
 typedef struct
 {
     uint8_t hub_id[16];             //< hub_id as obtained by HW_IOCTL_GET_HUB_ID ioctl.
- //nishi//   struct timespec timestamp;      //< modification time of keystore file
+   struct timespec timestamp;      //< modification time of keystore file
 } ID_t;
 

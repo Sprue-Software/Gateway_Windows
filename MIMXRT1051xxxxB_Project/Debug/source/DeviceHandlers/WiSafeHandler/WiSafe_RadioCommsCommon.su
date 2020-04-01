@@ -1,2 +1,2 @@
-WiSafe_RadioCommsCommon.c:49:21:BufferEscape	48	static
+WiSafe_RadioCommsCommon.c:49:21:BufferEscape	24	static
 WiSafe_RadioCommsCommon.c:114:6:BufferDeEscape	48	static

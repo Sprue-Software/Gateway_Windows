@@ -1,5 +1,4 @@
-GW_Handler.c:45:24:_ResetDevice	56	static
-GW_Handler.c:105:17:ECOM_SendGWStatusToSubscriber	56	static
-GW_Handler.c:134:17:WiSafe_DALRegisterDevice	320	static
-GW_Handler.c:346:6:GW_Handler	384	static
-GW_Handler.c:572:17:GW_Initialise	48	static
+GW_Handler.c:346:6:GW_Handler	520	static
+GW_Handler.c:105:17:ECOM_SendGWStatusToSubscriber	32	static
+GW_Handler.c:134:17:WiSafe_DALRegisterDevice	272	static
+GW_Handler.c:572:17:GW_Initialise	40	static

@@ -961,7 +961,7 @@ item.args.Poll.channelID = 0;
                     _AWS_SubscribeToChildTopic(item.args.Subscribe.channelID, item.args.Subscribe.slotIndex);
                     break;
                 case SeqItem_Connect:
-                    _AWS_ConnectChannel(item.args.Connect.channelID);
+                   // _AWS_ConnectChannel(item.args.Connect.channelID);
                     break;
                 case SeqItem_Disconnect:
                     {
@@ -1725,7 +1725,7 @@ EnsoErrorCode_e AWS_Initialise(char * rootCA, char * certs, char * key)
     _deleteMessageQueue = OSAL_NewMessageQueue(name,
                         ECOM_MAX_MESSAGE_QUEUE_DEPTH,
                         ECOM_MAX_MESSAGE_SIZE);
-    deletingThread = OSAL_NewThread(_AWS_ObjectDeleteWorker, _deleteMessageQueue);
+    deletingThread = 1;/*OSAL_NewThread(_AWS_ObjectDeleteWorker, _deleteMessageQueue);*/
     if (deletingThread == 0)
     {
         LOG_Error("OSAL_NewThread failed for AWS Comms Handler delete thread");
@@ -2885,7 +2885,7 @@ static void _AWS_ProcessThingStatus(ECOM_ThingStatusMessage_t* deviceStatusMessa
                     /* Gateway subscribes the Accept/Reject topics only one time. */
                     !_bGatewayAcceptRejectTopicsSubscribed)
                 {
-                    if (_AWS_GatewayAnnounceAndSubscriptions(parentName, owner))
+                    if (/*_AWS_GatewayAnnounceAndSubscriptions(parentName, owner)*/1)
                     {
                         /*
                          * Success - Now gateway subscribed to Accept/Reject topics so
@@ -2910,6 +2910,7 @@ static void _AWS_ProcessThingStatus(ECOM_ThingStatusMessage_t* deviceStatusMessa
 
                 if (eecNoError == retVal)
                 {
+#if 0
                     _AWS_AnnounceNewThing(owner,
                                           &deviceStatusMessage->deviceId,
                                           parentName,
@@ -2917,6 +2918,7 @@ static void _AWS_ProcessThingStatus(ECOM_ThingStatusMessage_t* deviceStatusMessa
                                           isGateway,
                                           typeVal.uint32Value,
                                           connectionID);
+#endif
                 }
                 else // if (eecPropertyNotFound)
                 {
@@ -2948,8 +2950,8 @@ static void _AWS_ProcessThingStatus(ECOM_ThingStatusMessage_t* deviceStatusMessa
                           LSD_EnsoErrorCode_eToString(retVal));
             }
 
-            _AWS_AddToDeleteQueue(deviceStatusMessage->deviceId);
-            _AWS_KickDeleteWorker(NULL);
+           // _AWS_AddToDeleteQueue(deviceStatusMessage->deviceId);
+           // _AWS_KickDeleteWorker(NULL);
         }
         break;
 

@@ -19,7 +19,7 @@
 #include "LOG_Api.h"
 #include "UPG_Api.h"
 #include "STO_Handler.h"
-//#include "Watchdog.h" //nishi
+#include "../Watchdog/Watchdog.h" //nishi
 #if TEST_HARNESS
 #include "THA_Api.h"
 #endif

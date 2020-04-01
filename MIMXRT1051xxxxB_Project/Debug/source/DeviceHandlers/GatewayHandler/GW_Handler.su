@@ -1,5 +1,3 @@
-GW_Handler.c:42:24:_ResetDevice	56	static
-GW_Handler.c:101:13:_CertsUrl	160	static
-GW_Handler.c:133:17:ECOM_SendGWStatusToSubscriber	56	static
-GW_Handler.c:167:6:GW_Handler	304	static
-GW_Handler.c:287:17:GW_Initialise	48	static
+GW_Handler.c:167:6:GW_Handler	392	static
+GW_Handler.c:133:17:ECOM_SendGWStatusToSubscriber	32	static
+GW_Handler.c:287:17:GW_Initialise	40	static

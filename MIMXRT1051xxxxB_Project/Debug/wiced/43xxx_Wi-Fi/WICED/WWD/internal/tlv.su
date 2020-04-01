@@ -1,7 +1,0 @@
-tlv.c:71:14:tlv_find_tlv8	24	static
-tlv.c:97:15:tlv_find_tlv16	32	static
-tlv.c:125:14:tlv_read_value	32	static
-tlv.c:151:10:tlv_write_value	32	static
-tlv.c:173:10:tlv_write_header	24	static
-tlv.c:183:17:tlv_hton32_ptr	24	static
-tlv.c:192:17:tlv_hton16_ptr	24	static

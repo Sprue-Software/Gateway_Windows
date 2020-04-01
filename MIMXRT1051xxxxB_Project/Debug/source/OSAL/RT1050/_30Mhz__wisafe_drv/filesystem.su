@@ -1,6 +1,0 @@
-filesystem.c:38:6:Init_FileSystem	8	static
-filesystem.c:61:6:fileexist	16	static
-filesystem.c:75:6:createRadioConfigFile	16	static
-filesystem.c:90:6:writeRadioConfigFile	16	static
-filesystem.c:106:6:readRadioConfigFile	24	static
-filesystem.c:134:6:Init_RMConfigData	16	static

@@ -1,5 +1,4 @@
-LED_manager.c:69:13:set_Led	8	static
-LED_manager.c:94:13:led_manager	40	static
-LED_manager.c:233:5:LED_Manager_Init	24	static
-LED_manager.c:274:9:LED_Manager_EnsoAgent_SetLed	40	static
-LED_manager.c:307:9:LED_Manager_EnsoAgent_GetLed	32	static
+LED_manager.c:94:13:led_manager	24	static
+LED_manager.c:233:5:LED_Manager_Init	32	static
+LED_manager.c:274:9:LED_Manager_EnsoAgent_SetLed	24	static
+LED_manager.c:307:9:LED_Manager_EnsoAgent_GetLed	24	static

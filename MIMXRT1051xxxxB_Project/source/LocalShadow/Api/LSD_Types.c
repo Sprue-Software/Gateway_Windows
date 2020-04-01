@@ -189,8 +189,8 @@ EnsoErrorCode_e LSD_GetThingName(
 
     if (deviceId.isChild)
     {
-    	//nishi
-#if 0
+
+#if 1
         *bufferUsed = OSAL_snprintf(destBuffer, destBufferSize, "%016"PRIx64"_%04x_%02x_%016"PRIx64"_%04x_%02x",
                                     parentId.deviceAddress,
                                     parentId.technology,
@@ -202,7 +202,7 @@ EnsoErrorCode_e LSD_GetThingName(
     }
     else
     {
-#if 0 //nishi
+#if 1
         *bufferUsed = OSAL_snprintf(destBuffer, destBufferSize, "%016"PRIx64"_%04x_%02x",
                                     deviceId.deviceAddress,
                                     deviceId.technology,

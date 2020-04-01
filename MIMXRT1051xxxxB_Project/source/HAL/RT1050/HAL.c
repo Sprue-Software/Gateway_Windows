@@ -12,7 +12,7 @@
  *****************************************************************************/
 
 #include <stdint.h>
-//#include <inttypes.h>
+#include <inttypes.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <stddef.h>

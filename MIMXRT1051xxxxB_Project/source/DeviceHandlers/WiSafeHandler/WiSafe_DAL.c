@@ -635,12 +635,12 @@ EnsoErrorCode_e WiSafe_DALDevicesEnumerate(deviceId_t* resultBuffer, uint16_t si
         for (uint16_t loop = 0; loop < *numDevices; loop += 1)
         {
             resultBuffer[loop] = (deviceId_t)(buffer[loop].deviceAddress);
-#if 0
+
             LOG_Info("WiSafe_DALDevicesEnumerate %016"PRIx64"_%04x_%02x",
                     buffer[loop].deviceAddress,
                     buffer[loop].technology,
                     buffer[loop].childDeviceId);
-#endif //Nishi
+
         }
     }
 

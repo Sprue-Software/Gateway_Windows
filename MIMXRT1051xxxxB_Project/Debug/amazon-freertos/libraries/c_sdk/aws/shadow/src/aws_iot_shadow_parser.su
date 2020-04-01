@@ -1,4 +1,3 @@
-aws_iot_shadow_parser.c:91:28:_codeToShadowStatus	8	static
-aws_iot_shadow_parser.c:140:26:_AwsIotShadow_ParseShadowStatus	32	static
+aws_iot_shadow_parser.c:140:26:_AwsIotShadow_ParseShadowStatus	8	static
 aws_iot_shadow_parser.c:191:21:_AwsIotShadow_ParseErrorDocument	56	static
-aws_iot_shadow_parser.c:251:21:_AwsIotShadow_ParseThingName	32	static
+aws_iot_shadow_parser.c:251:21:_AwsIotShadow_ParseThingName	24	static

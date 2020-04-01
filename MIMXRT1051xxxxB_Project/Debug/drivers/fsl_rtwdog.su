@@ -1,8 +1,4 @@
-fsl_common.h:528:28:DisableGlobalIRQ	8	static
-fsl_common.h:559:24:EnableGlobalIRQ	16	static
-fsl_rtwdog.h:206:20:RTWDOG_Disable	8	static
-fsl_rtwdog.h:359:20:RTWDOG_Unlock	8	static
-fsl_rtwdog.c:34:6:RTWDOG_ClearStatusFlags	8	static
-fsl_rtwdog.c:65:6:RTWDOG_GetDefaultConfig	16	static
-fsl_rtwdog.c:105:6:RTWDOG_Init	24	static
-fsl_rtwdog.c:139:6:RTWDOG_Deinit	24	static
+fsl_rtwdog.c:34:6:RTWDOG_ClearStatusFlags	0	static
+fsl_rtwdog.c:65:6:RTWDOG_GetDefaultConfig	8	static
+fsl_rtwdog.c:105:6:RTWDOG_Init	16	static
+fsl_rtwdog.c:139:6:RTWDOG_Deinit	0	static

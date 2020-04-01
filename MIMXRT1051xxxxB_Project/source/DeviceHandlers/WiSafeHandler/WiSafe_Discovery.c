@@ -20,7 +20,7 @@
 #include <sys/stat.h>
 //#include <direct.h>
 #include "OSAL_Api.h"
-//#include <Windows.h>
+#include <fcntl.h>
 #include "WiSafe_Discovery.h"
 #include "WiSafe_Timer.h"
 #include "WiSafe_Protocol.h"
@@ -1204,8 +1204,8 @@ static void SubscribeToDeviceProperties(deviceId_t id)
 bool Wisafe_OpenDevicesFile(void)
 {
     bool result = false;
-    //Nishi
-    int fd = open(WISAFE_DEVICES_FILE, 1);
+
+    int fd = open(WISAFE_DEVICES_FILE,O_RDONLY );
     if (fd < 0)
     {
         LOG_Error("cannot open %s: %s", WISAFE_DEVICES_FILE, strerror(errno));

@@ -1,6 +1,0 @@
-fsl_clock.h:969:20:CLOCK_SetMux	24	static
-fsl_clock.h:1006:20:CLOCK_SetDiv	24	static
-fsl_clock.h:1203:20:CLOCK_SetXtalFreq	8	static
-fsl_clock.h:1213:20:CLOCK_SetRtcXtalFreq	8	static
-clock_config.c:54:13:BOARD_BootClockGate	0	static
-clock_config.c:66:6:BOARD_BootClockRUN	8	static

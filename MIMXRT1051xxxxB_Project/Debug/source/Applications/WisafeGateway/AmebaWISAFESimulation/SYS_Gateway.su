@@ -1,6 +1,6 @@
-SYS_Gateway.c:112:24:SYS_CreateProperty	72	static
-SYS_Gateway.c:205:6:GW_FirmwareProperties	200	static
-SYS_Gateway.c:275:17:SYS_Initialise	48	static
-SYS_Gateway.c:313:17:SYS_Start	40	static
-SYS_Gateway.c:329:6:SYS_GetDeviceId	16	static
-SYS_Gateway.c:346:6:SYS_IsGateway	16	static
+SYS_Gateway.c:206:6:GW_FirmwareProperties.part.0	176	static
+SYS_Gateway.c:206:6:GW_FirmwareProperties	8	static
+SYS_Gateway.c:276:17:SYS_Initialise	72	static
+SYS_Gateway.c:314:17:SYS_Start	24	static
+SYS_Gateway.c:330:6:SYS_GetDeviceId	8	static
+SYS_Gateway.c:347:6:SYS_IsGateway	8	static

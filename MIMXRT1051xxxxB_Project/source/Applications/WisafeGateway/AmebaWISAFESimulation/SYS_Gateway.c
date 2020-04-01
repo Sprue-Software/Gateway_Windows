@@ -23,7 +23,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <unistd.h>
-
+#include <fcntl.h>
 /*!****************************************************************************
  * Constants
  *****************************************************************************/
@@ -100,6 +100,7 @@ typedef struct
     HandlerId_e handler;
 } Prop_Init_t;
 
+#define GW_FWNAM "SA2941_R_1_03" //nishi
 /**
  * \name SYS_CreateProperty
  *
@@ -209,7 +210,7 @@ void GW_FirmwareProperties(void)
     if (strlen(gw_fwnam) == 0)
     {
         // Try to read the firmware name from a file.
-        int fd = open(FW_VERSION_PATH, 1); //Nishi
+        int fd = open(FW_VERSION_PATH, O_RDONLY);
         if (fd < 0)
         {
             LOG_Error("cannot open %s: %s", FW_VERSION_PATH, strerror(errno));

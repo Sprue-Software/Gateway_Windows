@@ -1,7 +1,2 @@
-fsl_gpio.h:101:20:GPIO_WritePinOutput	24	static
-fsl_adc.h:276:24:ADC_GetChannelConversionValue	16	static
-fsl_adc.h:300:24:ADC_GetChannelStatusFlags	16	static
-battery_manager.c:70:13:setBatteryChargeEnable	16	static
-battery_manager.c:90:17:read_battery_voltage	24	static
-battery_manager.c:118:13:battery_manager	112	static
-battery_manager.c:282:5:initBatteryManager	48	static
+battery_manager.c:118:13:battery_manager	80	static
+battery_manager.c:282:5:initBatteryManager	40	static
