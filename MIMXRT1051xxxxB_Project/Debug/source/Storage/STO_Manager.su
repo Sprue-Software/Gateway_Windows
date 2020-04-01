@@ -1,0 +1,9 @@
+STO_Manager.c:84:8:EnsoPropertyValue_u2s	32	static
+STO_Manager.c:151:17:STO_WriteRecord	72	static
+STO_Manager.c:535:5:STO_ReadRecord	40	static
+STO_Manager.c:326:24:_LoadFromLog	184	static
+STO_Manager.c:230:17:STO_LoadFromStorage	48	static
+STO_Manager.c:126:17:STO_Init	16	static
+STO_Manager.c:641:17:STO_CheckSizeAndConsolidate	32	static
+STO_Manager.c:721:17:STO_LocalShadowDumpComplete	32	static
+STO_Manager.c:751:6:STO_RemoveLogs	8	static

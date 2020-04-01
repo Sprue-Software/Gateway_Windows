@@ -144,6 +144,7 @@ standard names. */
 #define xPortPendSVHandler PendSV_Handler
 #define xPortSysTickHandler SysTick_Handler
 
+
     /* Map the FreeRTOS printf() to the logging task printf. */
     #define configPRINTF( x )          vLoggingPrintf x
 
@@ -157,5 +158,4 @@ standard names. */
     /* Set to 1 to prepend each log message with a message number, the task name,
      * and a time stamp. */
     #define configLOGGING_INCLUDE_TIME_AND_TASK_NAME    1
-
 #endif /* FREERTOS_CONFIG_H */

@@ -1,0 +1,9 @@
+KEY_Api.c:143:8:KEY_Create	8	static
+KEY_Api.c:154:8:KEY_Open	16	static
+KEY_Api.c:193:5:KEY_Close	0	static
+KEY_Api.c:212:5:KEY_Add	32	static
+KEY_Api.c:277:5:KEY_Delete	24	static
+KEY_Api.c:312:8:KEY_Get	48	static
+KEY_Api.c:369:6:KEY_Free	8	static
+KEY_Api.c:388:5:KEY_Write	8	static
+KEY_Api.c:409:8:KEY_List	32	static

@@ -1,0 +1,4 @@
+aws_helper_secure_connect.c:181:6:GGD_SecureConnect_Disconnect	24	static
+aws_helper_secure_connect.c:57:12:GGD_SecureConnect_Connect	56	static
+aws_helper_secure_connect.c:228:12:GGD_SecureConnect_Send	24	static
+aws_helper_secure_connect.c:283:12:GGD_SecureConnect_Read	32	static

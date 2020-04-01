@@ -1,0 +1,6 @@
+fsl_clock.h:969:20:CLOCK_SetMux.part.0	8	static
+fsl_clock.h:1006:20:CLOCK_SetDiv.part.1	8	static
+lpm.c:120:6:LPM_DisablePLLs	32	static
+lpm.c:247:6:LPM_RestorePLLs	16	static
+lpm.c:425:6:LPM_Init	12	static
+lpm.c:485:6:LPM_Deinit	0	static

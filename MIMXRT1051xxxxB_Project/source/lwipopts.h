@@ -13,7 +13,7 @@
 
 #ifndef __LWIPOPTS_H__
 #define __LWIPOPTS_H__
-#define USE_RTOS 1
+
 
 #if USE_RTOS
 

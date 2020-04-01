@@ -1,0 +1,9 @@
+aws_greengrass_discovery.c:303:12:GGD_JSONRequestGetSize.part.6	48	static
+aws_greengrass_discovery.c:401:12:GGD_JSONRequestGetFile.part.7	40	static
+aws_greengrass_discovery.c:850:19:prvGGDGetIPOnInterface.isra.3	56	static
+aws_greengrass_discovery.c:228:12:GGD_JSONRequestStart	48	static
+aws_greengrass_discovery.c:303:12:GGD_JSONRequestGetSize	0	static
+aws_greengrass_discovery.c:401:12:GGD_JSONRequestGetFile	12	static
+aws_greengrass_discovery.c:470:6:GGD_JSONRequestAbort	0	static
+aws_greengrass_discovery.c:482:12:GGD_GetIPandCertificateFromJSON	2664	static
+aws_greengrass_discovery.c:158:12:GGD_GetGGCIPandCertificate	48	static

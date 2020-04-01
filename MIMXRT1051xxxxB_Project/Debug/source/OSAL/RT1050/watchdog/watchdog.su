@@ -1,0 +1,4 @@
+watchdog.c:98:6:RTWDOG_IRQHandler	8	static
+watchdog.c:113:6:watchdog_init	16	static
+watchdog.c:141:6:watchdog_start	8	static
+watchdog.c:159:6:watchdog_refresh	8	static

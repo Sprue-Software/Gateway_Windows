@@ -1,0 +1,13 @@
+sntp.c:264:1:sntp_retry	8	static
+sntp.c:334:1:sntp_recv	32	static
+sntp.c:467:1:sntp_dns_found	16	static
+sntp.c:490:1:sntp_request	24	static
+sntp.c:535:1:sntp_init	24	static
+sntp.c:571:1:sntp_stop	8	static
+sntp.c:585:6:sntp_enabled	0	static
+sntp.c:596:1:sntp_setoperatingmode	8	static
+sntp.c:608:1:sntp_getoperatingmode	0	static
+sntp.c:636:1:sntp_setserver	0	static
+sntp.c:686:1:sntp_getserver	0	static
+sntp.c:702:1:sntp_setservername	0	static
+sntp.c:717:1:sntp_getservername	0	static

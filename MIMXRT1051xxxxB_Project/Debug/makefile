@@ -10,16 +10,40 @@ RM := rm -rf
 -include sources.mk
 -include utilities/subdir.mk
 -include startup/subdir.mk
+-include source/Watchdog/subdir.mk
+-include source/Storage/subdir.mk
+-include source/OSAL/RT1050/wisafe_drv/subdir.mk
+-include source/OSAL/RT1050/watchdog/subdir.mk
+-include source/OSAL/RT1050/tinyprintf/subdir.mk
+-include source/OSAL/RT1050/sto/subdir.mk
+-include source/OSAL/RT1050/spiflash/subdir.mk
+-include source/OSAL/RT1050/sntp/subdir.mk
+-include source/OSAL/RT1050/power/subdir.mk
+-include source/OSAL/RT1050/ota/subdir.mk
+-include source/OSAL/RT1050/led/subdir.mk
+-include source/OSAL/RT1050/efs/subdir.mk
+-include source/OSAL/RT1050/subdir.mk
+-include source/Logger/subdir.mk
+-include source/LocalShadow/ObjectStore/subdir.mk
+-include source/LocalShadow/Api/subdir.mk
+-include source/KeyStore/FreeRTOS/subdir.mk
+-include source/HAL/RT1050/subdir.mk
+-include source/EnsoComms/subdir.mk
+-include source/DeviceHandlers/WiSafeHandler/subdir.mk
+-include source/DeviceHandlers/UpgradeHandler/RT1050/subdir.mk
+-include source/DeviceHandlers/UpgradeHandler/subdir.mk
+-include source/DeviceHandlers/TestHandler/subdir.mk
+-include source/DeviceHandlers/LEDHandler/subdir.mk
+-include source/DeviceHandlers/GatewayHandler/subdir.mk
+-include source/DeviceHandlers/Common/subdir.mk
+-include source/CloudComms/AWS/subdir.mk
+-include source/CloudComms/subdir.mk
+-include source/Applications/WisafeGateway/AmebaWISAFESimulation/subdir.mk
+-include source/Applications/WisafeGateway/subdir.mk
+-include source/Applications/Common/subdir.mk
 -include source/subdir.mk
 -include mbedtls/port/ksdk/subdir.mk
 -include mbedtls/library/subdir.mk
--include lwip/src/netif/ppp/subdir.mk
--include lwip/src/netif/subdir.mk
--include lwip/src/core/ipv6/subdir.mk
--include lwip/src/core/ipv4/subdir.mk
--include lwip/src/core/subdir.mk
--include lwip/src/api/subdir.mk
--include lwip/port/subdir.mk
 -include drivers/freertos/subdir.mk
 -include drivers/subdir.mk
 -include device/subdir.mk
@@ -34,6 +58,7 @@ RM := rm -rf
 -include amazon-freertos/libraries/freertos_plus/standard/tls/src/subdir.mk
 -include amazon-freertos/libraries/freertos_plus/standard/pkcs11/src/subdir.mk
 -include amazon-freertos/libraries/freertos_plus/standard/crypto/src/subdir.mk
+-include amazon-freertos/libraries/freertos_plus/aws/greengrass/src/subdir.mk
 -include amazon-freertos/libraries/c_sdk/standard/serializer/src/json/subdir.mk
 -include amazon-freertos/libraries/c_sdk/standard/serializer/src/subdir.mk
 -include amazon-freertos/libraries/c_sdk/standard/mqtt/src/subdir.mk
@@ -61,25 +86,25 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: MIMXRT1051xxxxB_Project.axf
+all: EnsoAgent_Windows.axf
 
 # Tool invocations
-MIMXRT1051xxxxB_Project.axf: $(OBJS) $(USER_OBJS)
+EnsoAgent_Windows.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -Xlinker -Map="MIMXRT1051xxxxB_Project.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T MIMXRT1051xxxxB_Project_Debug.ld -o "MIMXRT1051xxxxB_Project.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -Xlinker -Map="EnsoAgent_Windows.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T "EnsoAgent_Windows_Debug.ld" -o "EnsoAgent_Windows.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) MIMXRT1051xxxxB_Project.axf
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) EnsoAgent_Windows.axf
 	-@echo ' '
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size "MIMXRT1051xxxxB_Project.axf"; # arm-none-eabi-objcopy -v -O binary "MIMXRT1051xxxxB_Project.axf" "MIMXRT1051xxxxB_Project.bin" ; # checksum -p MIMXRT1051xxxxB -d "MIMXRT1051xxxxB_Project.bin";
+	-arm-none-eabi-size "EnsoAgent_Windows.axf"; # arm-none-eabi-objcopy -v -O binary "EnsoAgent_Windows.axf" "EnsoAgent_Windows.bin" ; # checksum -p MIMXRT1051xxxxB -d "EnsoAgent_Windows.bin";
 	-@echo ' '
 
 .PHONY: all clean dependents post-build

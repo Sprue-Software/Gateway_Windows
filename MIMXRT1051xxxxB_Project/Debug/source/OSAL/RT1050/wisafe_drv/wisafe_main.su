@@ -1,0 +1,10 @@
+wisafe_main.c:407:6:vTimerRM_ReceiveCallback	0	static
+wisafe_main.c:360:13:RM_MainLoopHandler_task	40	static
+wisafe_main.c:182:6:GPIO1_Combined_16_31_IRQHandler	0	static
+wisafe_main.c:197:6:GPIO3_Combined_16_31_IRQHandler	16	static
+wisafe_main.c:335:6:writeWGqueue	8	static
+wisafe_main.c:388:6:checkWGtoRMqueue	24	static
+wisafe_main.c:539:6:LPSPI_MasterInit_New	40	static
+wisafe_main.c:609:6:Init_LPSPI	56	static
+wisafe_main.c:241:6:Wisafe_Main	24	static
+wisafe_main.c:648:6:wait_syncMatch	8	static

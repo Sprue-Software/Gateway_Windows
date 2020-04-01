@@ -1,0 +1,7 @@
+STO_Dummy.c:23:8:EnsoPropertyValue_u2s	8	static
+STO_Dummy.c:28:17:STO_WriteRecord	0	static
+STO_Dummy.c:37:17:STO_LoadFromStorage	0	static
+STO_Dummy.c:42:5:STO_ReadRecord	0	static
+STO_Dummy.c:52:17:STO_CheckSizeAndConsolidate	0	static
+STO_Dummy.c:57:17:STO_LocalShadowDumpComplete	0	static
+STO_Dummy.c:62:6:STO_RemoveLogs	0	static

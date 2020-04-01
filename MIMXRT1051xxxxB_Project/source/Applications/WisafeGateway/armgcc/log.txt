@@ -1,0 +1,282 @@
+-- TOOLCHAIN_DIR: /home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-6-2017-q2-update
+-- BUILD_TYPE: copydown
+-- TOOLCHAIN_DIR: /home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-6-2017-q2-update
+-- BUILD_TYPE: copydown
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/arm-none-eabi-gcc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/stuart/projects/sprue/code/src/Port/Source/Applications/WisafeGateway/armgcc
+Scanning dependencies of target ea3_wsgw.elf
+[  0%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_trng.c.obj
+[  0%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_dcp.c.obj
+[  1%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_common.c.obj
+[  2%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_cache.c.obj
+[  2%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_enet.c.obj
+[  2%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_clock.c.obj
+[  3%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/system_MIMXRT1052.c.obj
+[  3%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_rtwdog.c.obj
+[  3%] Building ASM object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S.obj
+[  4%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_lpuart.c.obj
+[  4%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/utilities/io/fsl_io.c.obj
+[  4%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/utilities/log/fsl_log.c.obj
+[  5%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/utilities/str/fsl_str.c.obj
+[  5%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/utilities/fsl_debug_console.c.obj
+[  6%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/utilities/fsl_assert.c.obj
+[  6%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_gpio.c.obj
+[  6%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_flexspi.c.obj
+[  7%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_lpspi.c.obj
+[  7%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/drivers/fsl_gpt.c.obj
+[  8%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/port/ethernetif.c.obj
+[  8%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/port/sys_arch.c.obj
+[  8%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/api_lib.c.obj
+[  9%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/api_msg.c.obj
+[  9%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/err.c.obj
+[ 10%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/netbuf.c.obj
+[ 10%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/netdb.c.obj
+[ 10%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/netifapi.c.obj
+[ 11%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/sockets.c.obj
+[ 11%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/api/tcpip.c.obj
+[ 12%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/def.c.obj
+[ 12%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/dns.c.obj
+[ 12%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/inet_chksum.c.obj
+[ 13%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/init.c.obj
+[ 13%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ip.c.obj
+[ 14%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/mem.c.obj
+[ 14%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/netif.c.obj
+[ 14%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/memp.c.obj
+[ 15%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/pbuf.c.obj
+[ 15%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/raw.c.obj
+[ 16%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/stats.c.obj
+[ 16%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/sys.c.obj
+[ 16%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/tcp.c.obj
+[ 17%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/tcp_in.c.obj
+[ 17%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/tcp_out.c.obj
+[ 18%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/timeouts.c.obj
+[ 18%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/udp.c.obj
+[ 18%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/autoip.c.obj
+[ 19%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/dhcp.c.obj
+[ 19%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/etharp.c.obj
+[ 20%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/icmp.c.obj
+[ 20%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/igmp.c.obj
+[ 20%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/ip4.c.obj
+[ 21%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/ip4_addr.c.obj
+[ 21%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv4/ip4_frag.c.obj
+[ 22%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/dhcp6.c.obj
+[ 22%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/ethip6.c.obj
+[ 22%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/icmp6.c.obj
+[ 23%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/inet6.c.obj
+[ 23%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/ip6.c.obj
+[ 24%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/ip6_addr.c.obj
+[ 24%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/ip6_frag.c.obj
+[ 25%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/mld6.c.obj
+[ 25%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/core/ipv6/nd6.c.obj
+[ 25%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ethernet.c.obj
+[ 26%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/lowpan6.c.obj
+[ 27%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/auth.c.obj
+[ 27%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/slipif.c.obj
+[ 27%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/ccp.c.obj
+[ 27%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/chap_ms.c.obj
+[ 28%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/chap-md5.c.obj
+[ 28%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/chap-new.c.obj
+[ 29%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/demand.c.obj
+[ 29%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/eap.c.obj
+[ 30%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/fsm.c.obj
+[ 30%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/eui64.c.obj
+[ 30%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/ipcp.c.obj
+[ 31%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/ipv6cp.c.obj
+[ 31%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/lwip_ecp.c.obj
+[ 31%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/lcp.c.obj
+[ 32%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/magic.c.obj
+[ 32%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/mppe.c.obj
+[ 33%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/multilink.c.obj
+[ 33%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/ppp.c.obj
+[ 33%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/pppapi.c.obj
+[ 34%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/pppcrypt.c.obj
+[ 34%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/pppoe.c.obj
+[ 35%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/pppol2tp.c.obj
+[ 35%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/pppos.c.obj
+[ 35%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/upap.c.obj
+[ 36%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/utils.c.obj
+[ 36%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/lwip/src/netif/ppp/vj.c.obj
+[ 37%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/aes.c.obj
+[ 37%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/aesni.c.obj
+[ 37%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/arc4.c.obj
+[ 38%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/asn1parse.c.obj
+[ 38%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/asn1write.c.obj
+[ 39%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/base64.c.obj
+[ 39%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/bignum.c.obj
+[ 39%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/blowfish.c.obj
+[ 40%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/camellia.c.obj
+[ 40%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ccm.c.obj
+[ 41%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/certs.c.obj
+[ 41%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/cipher.c.obj
+[ 41%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/cipher_wrap.c.obj
+[ 42%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/cmac.c.obj
+[ 42%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ctr_drbg.c.obj
+[ 43%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/debug.c.obj
+[ 43%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/des.c.obj
+[ 43%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/dhm.c.obj
+[ 44%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ecdh.c.obj
+[ 44%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ecdsa.c.obj
+[ 45%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ecjpake.c.obj
+[ 45%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ecp.c.obj
+[ 45%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ecp_curves.c.obj
+[ 46%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/entropy.c.obj
+[ 46%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/entropy_poll.c.obj
+[ 47%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/error.c.obj
+[ 47%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/gcm.c.obj
+[ 47%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/havege.c.obj
+[ 48%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/hmac_drbg.c.obj
+[ 48%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/md.c.obj
+[ 49%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/md_wrap.c.obj
+[ 49%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/md2.c.obj
+[ 50%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/md4.c.obj
+[ 50%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/md5.c.obj
+[ 50%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/memory_buffer_alloc.c.obj
+[ 51%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/oid.c.obj
+[ 51%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/padlock.c.obj
+[ 52%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pem.c.obj
+[ 52%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pk.c.obj
+[ 53%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pkcs5.c.obj
+[ 53%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pk_wrap.c.obj
+[ 53%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pkcs11.c.obj
+[ 54%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pkcs12.c.obj
+[ 54%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pkparse.c.obj
+[ 54%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/pkwrite.c.obj
+[ 55%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/platform.c.obj
+[ 55%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ripemd160.c.obj
+[ 56%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/rsa.c.obj
+[ 56%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/sha1.c.obj
+[ 57%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/sha512.c.obj
+[ 57%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/sha256.c.obj
+[ 57%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ssl_cache.c.obj
+[ 58%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ssl_ciphersuites.c.obj
+[ 58%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ssl_cli.c.obj
+[ 58%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ssl_cookie.c.obj
+[ 59%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ssl_srv.c.obj
+[ 59%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ssl_ticket.c.obj
+[ 60%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/ssl_tls.c.obj
+[ 60%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/threading.c.obj
+[ 60%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/timing.c.obj
+[ 61%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/version.c.obj
+[ 61%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/version_features.c.obj
+[ 62%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/x509.c.obj
+[ 62%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/x509_create.c.obj
+[ 62%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/x509_crl.c.obj
+[ 63%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/x509_crt.c.obj
+[ 63%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/x509_csr.c.obj
+[ 64%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/x509write_crt.c.obj
+[ 64%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/x509write_csr.c.obj
+[ 64%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/library/xtea.c.obj
+[ 65%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/port/ksdk/ksdk_mbedtls.c.obj
+[ 65%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/middleware/mbedtls/port/ksdk/des_alt.c.obj
+[ 66%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/portable/MemMang/heap_5.c.obj
+[ 66%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/croutine.c.obj
+[ 66%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/list.c.obj
+[ 66%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/tasks.c.obj
+[ 67%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/queue.c.obj
+[ 68%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/timers.c.obj
+[ 68%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/event_groups.c.obj
+[ 68%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.c.obj
+[ 69%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/rtos/freertos/Source/portable/GCC/ARM_CM4F/port.c.obj
+[ 69%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_mqtt_client_yield.c.obj
+[ 70%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_mqtt_client_common_internal.c.obj
+[ 70%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_mqtt_client.c.obj
+[ 70%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_mqtt_client_subscribe.c.obj
+[ 71%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_shadow.c.obj
+[ 71%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_mqtt_client_unsubscribe.c.obj
+[ 72%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_mqtt_client_connect.c.obj
+[ 72%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_shadow_actions.c.obj
+[ 72%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_shadow_records.c.obj
+[ 73%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_shadow_json.c.obj
+[ 74%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_json_utils.c.obj
+[ 74%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/src/aws_iot_mqtt_client_publish.c.obj
+[ 74%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Libs/aws-iot-device-sdk-embedded-C/external_libs/jsmn/jsmn.c.obj
+[ 75%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Applications/Common/APP_Init.c.obj
+[ 75%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Applications/Common/APP_Types.c.obj
+[ 75%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Applications/Common/SYS_Gateway.c.obj
+[ 76%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/CloudComms/CLD_CommsInterface.c.obj
+[ 76%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/CloudComms/AWS/AWS_CommsHandler.c.obj
+[ 77%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/CloudComms/AWS/AWS_FaultBuffer.c.obj
+[ 77%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/CloudComms/AWS/AWS_Timestamps.c.obj
+[ 77%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/Common/KVP_Api.c.obj
+[ 78%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/LEDHandler/LEDH_Api.c.obj
+[ 78%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/TestHandler/THA_Api.c.obj
+[ 78%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/UpgradeHandler/RT1050/UPG_Upgrader.c.obj
+[ 79%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/UpgradeHandler/UPG_Api.c.obj
+[ 79%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/GatewayHandler/GW_Handler.c.obj
+[ 80%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Control.c.obj
+[ 80%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Discovery.c.obj
+[ 81%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Event.c.obj
+[ 81%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Protocol.c.obj
+[ 81%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_RadioComms.c.obj
+[ 82%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_RadioCommsCommon.c.obj
+[ 82%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_DAL.c.obj
+[ 83%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Engine.c.obj
+[ 83%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Main.c.obj
+[ 83%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_RadioCommsBuffer.c.obj
+[ 84%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Constants.c.obj
+[ 84%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/DeviceHandlers/WiSafeHandler/WiSafe_Settings.c.obj
+[ 85%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/EnsoComms/ECOM_MessageBasedApi.c.obj
+[ 85%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/HAL/RT1050/HAL.c.obj
+[ 85%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/LocalShadow/Api/LSD_Api.c.obj
+[ 86%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/LocalShadow/Api/LSD_Types.c.obj
+[ 86%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/LocalShadow/ObjectStore/LSD_EnsoObjectStore.c.obj
+[ 87%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/LocalShadow/ObjectStore/LSD_PropertyStore.c.obj
+[ 87%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/LocalShadow/ObjectStore/LSD_Subscribe.c.obj
+[ 87%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Logger/LOG_Api.c.obj
+[ 88%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/KeyStore/FreeRTOS/KEY_Api.c.obj
+[ 88%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/wisafe_drv.c.obj
+[ 89%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/timer.c.obj
+[ 89%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/radio.c.obj
+[ 89%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/messages.c.obj
+[ 90%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/logic.c.obj
+[ 90%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/filesystem.c.obj
+[ 91%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/SDcomms.c.obj
+[ 91%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/wisafe_drv/wisafe_main.c.obj
+[ 91%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/OSAL_Debug.c.obj
+[ 92%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/OSAL_Api.c.obj
+[ 92%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/board/pin_mux.c.obj
+[ 92%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/board/clock_config.c.obj
+[ 93%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/board/board.c.obj
+[ 93%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/board/fsl_phy.c.obj
+[ 94%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/efs/EFS_FileSystem.c.obj
+[ 94%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/ota/ota.c.obj
+[ 95%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/tinyprintf/tinyprintf.c.obj
+[ 95%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/watchdog/watchdog.c.obj
+[ 95%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/sntp/sntp.c.obj
+[ 95%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/aws/platform/RT1050/common/timer.c.obj
+[ 96%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/sntp/sntp_client.c.obj
+[ 97%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/aws/platform/RT1050/mbedtls/network_mbedtls_wrapper.c.obj
+[ 97%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/mbedtls/net_sockets.c.obj
+[ 97%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/OSAL/RT1050/main/main.c.obj
+[ 98%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Storage/STO_Handler.c.obj
+[ 98%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Storage/STO_Manager.c.obj
+[ 99%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Watchdog/Watchdog.c.obj
+[ 99%] Building C object CMakeFiles/ea3_wsgw.elf.dir/home/stuart/projects/sprue/code/src/Port/Source/Applications/WisafeGateway/EnsoMain.c.obj
+[100%] Linking C executable copydown/ea3_wsgw.elf
+   text	   data	    bss	    dec	    hex	filename
+ 369836	    924	 285128	 655888	  a0210	/home/stuart/projects/sprue/code/src/Port/Source/Applications/WisafeGateway/armgcc/copydown/ea3_wsgw.elf
+/home/stuart/projects/sprue/code/src/Port/Source/Applications/WisafeGateway/armgcc/copydown/ea3_wsgw.elf  :
+section              size         addr
+.interrupts         0x400   0x80002000
+.text             0x5a0a4   0x80004000
+.ARM                  0x8   0x8005e0a4
+.init_array           0x4   0x8005e0ac
+.fini_array           0x4   0x8005e0b0
+.data               0x394   0x80100000
+.ncache.init          0x0   0x80100394
+.ncache              0x58   0x801003c0
+.bss              0x4516c   0x80100440
+.heap               0x404   0x801455ac
+.stack              0x400   0x801459b0
+.ARM.attributes      0x2e          0x0
+.comment             0x7f          0x0
+.debug_frame       0x11c0          0x0
+.stab                0x9c          0x0
+.stabstr            0x14b          0x0
+Total             0xa1664
+
+
+[100%] Built target ea3_wsgw.elf

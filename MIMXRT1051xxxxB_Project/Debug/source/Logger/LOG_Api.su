@@ -1,0 +1,6 @@
+LOG_Api.c:41:6:LOG_Init	64	static
+LOG_Api.c:73:6:LOG_EnableError	0	static
+LOG_Api.c:88:6:LOG_EnableWarning	0	static
+LOG_Api.c:103:6:LOG_EnableInfo	0	static
+LOG_Api.c:118:6:LOG_EnableTrace	0	static
+LOG_Api.c:133:6:LOG_EnableMalloc	0	static

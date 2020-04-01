@@ -1,1 +1,3 @@
-pin_mux.c:48:6:BOARD_InitBootPins	4	static
+pin_mux.c:49:6:BOARD_InitBootPins	0	static
+pin_mux.c:124:6:BOARD_InitPins	32	static
+pin_mux.c:502:6:enable_wired_ethernet	32	static

@@ -1,0 +1,4 @@
+timer.c:49:6:GPT2_IRQHandler	4	static
+timer.c:76:6:Init_Timer	24	static
+timer.c:123:19:GetCurrentTimerCount	0	static
+timer.c:137:6:Delay	0	static

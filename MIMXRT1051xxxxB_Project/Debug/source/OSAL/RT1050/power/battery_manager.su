@@ -1,0 +1,2 @@
+battery_manager.c:118:13:battery_manager	80	static
+battery_manager.c:282:5:initBatteryManager	40	static

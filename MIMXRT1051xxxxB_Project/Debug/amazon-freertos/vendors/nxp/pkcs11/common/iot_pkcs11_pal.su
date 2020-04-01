@@ -1,6 +1,6 @@
-iot_pkcs11_pal.c:83:6:prvLabelToFilenameHandle	24	static
-iot_pkcs11_pal.c:138:18:PKCS11_PAL_SaveObject	32	static
-iot_pkcs11_pal.c:175:18:PKCS11_PAL_FindObject	24	static
-iot_pkcs11_pal.c:216:7:PKCS11_PAL_GetObjectValue	32	static
-iot_pkcs11_pal.c:266:6:PKCS11_PAL_GetObjectValueCleanup	16	static
-iot_pkcs11_pal.c:296:1:C_Initialize	24	static
+iot_pkcs11_pal.c:83:6:prvLabelToFilenameHandle	16	static
+iot_pkcs11_pal.c:138:18:PKCS11_PAL_SaveObject	16	static
+iot_pkcs11_pal.c:175:18:PKCS11_PAL_FindObject	8	static
+iot_pkcs11_pal.c:216:7:PKCS11_PAL_GetObjectValue	8	static
+iot_pkcs11_pal.c:266:6:PKCS11_PAL_GetObjectValueCleanup	0	static
+iot_pkcs11_pal.c:296:1:C_Initialize	8	static

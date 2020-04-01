@@ -1,0 +1,10 @@
+AWS_DummyBuffer.c:45:17:AWS_FaultBufferInit	0	static
+AWS_DummyBuffer.c:53:6:AWS_FaultBufferStop	0	static
+AWS_DummyBuffer.c:75:17:AWS_FaultBuffer	40	static
+AWS_DummyBuffer.c:94:6:AWS_FinishedWithFaultBuffer	0	static
+AWS_DummyBuffer.c:104:6:AWS_SendFailedForFaultBuffer	0	static
+AWS_DummyBuffer.c:109:6:AWS_ConnectionStateCB	0	static
+AWS_DummyBuffer.c:120:6:AWS_FaultBufferEmpty	0	static
+AWS_DummyBuffer.c:130:6:AWS_SetTimerForPeriodicWorker	0	static
+AWS_DummyBuffer.c:139:6:AWS_ForceBackoffDuringDiscovery	0	static
+AWS_DummyBuffer.c:143:6:AWS_SendWaitingDelta	0	static

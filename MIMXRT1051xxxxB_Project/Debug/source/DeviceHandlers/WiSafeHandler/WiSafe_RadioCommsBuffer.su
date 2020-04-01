@@ -1,0 +1,7 @@
+WiSafe_RadioCommsBuffer.c:62:21:WiSafe_RadioCommsBufferGet	16	static
+WiSafe_RadioCommsBuffer.c:90:21:WiSafe_RadioCommsBufferBusyGet	48	static
+WiSafe_RadioCommsBuffer.c:118:6:WiSafe_RadioCommsBufferRelease	8	static
+WiSafe_RadioCommsBuffer.c:138:6:WiSafe_RadioCommsBufferDump	216	static
+WiSafe_RadioCommsBuffer.c:172:10:WiSafe_RadioCommsBufferRemainingSpace	0	static
+WiSafe_RadioCommsBuffer.c:191:6:WiSafe_RadioCommsBufferRemove	0	static
+WiSafe_RadioCommsBuffer.c:221:6:WiSafe_RadioCommsBufferContains	0	static

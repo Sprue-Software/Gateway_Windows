@@ -1,0 +1,12 @@
+tinyprintf.c:86:33:ulli2a	56	static
+tinyprintf.c:202:13:putchw	24	static
+tinyprintf.c:496:13:_vsprintf_putcf	4	static
+tinyprintf.c:202:13:putchw.constprop	16	static
+tinyprintf.c:254:6:tfp_format.constprop	80	static
+tinyprintf.c:254:6:tfp_format	80	static
+tinyprintf.c:428:6:init_printf	0	static
+tinyprintf.c:434:6:tfp_printf	16	static
+tinyprintf.c:459:5:tfp_vsnprintf	88	static
+tinyprintf.c:479:5:tfp_snprintf	88	static
+tinyprintf.c:502:5:tfp_vsprintf	16	static
+tinyprintf.c:512:5:tfp_sprintf	28	static

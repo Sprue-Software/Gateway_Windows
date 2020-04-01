@@ -1,0 +1,10 @@
+ECOM_FunctionBasedApi.c:50:29:GetOnUpdateFunction.part.0	8	static
+ECOM_FunctionBasedApi.c:50:29:GetOnUpdateFunction	8	static
+ECOM_FunctionBasedApi.c:68:6:ECOM_Init	0	static
+ECOM_FunctionBasedApi.c:88:17:ECOM_RegisterOnUpdateFunction	24	static
+ECOM_FunctionBasedApi.c:126:17:ECOM_RegisterMessageQueue	0	static
+ECOM_FunctionBasedApi.c:154:17:ECOM_SendUpdateToSubscriber	48	static
+ECOM_FunctionBasedApi.c:208:17:ECOM_SendThingStatusToSubscriber	0	static
+ECOM_FunctionBasedApi.c:234:17:ECOM_SendLocalShadowStatusToSubscriber	8	static
+ECOM_FunctionBasedApi.c:256:6:ECOM_IsDestinationQueueFull	0	static
+ECOM_FunctionBasedApi.c:277:17:ECOM_SendPropertyDeletedToSubscriber	0	static

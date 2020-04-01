@@ -1,1 +1,10 @@
-MIMXRT1051xxxxB_Project.c:48:5:main	8	static
+MIMXRT1051xxxxB_Project.c:611:6:EnsoAgentLED	48	static
+MIMXRT1051xxxxB_Project.c:478:13:setup_lan_and_time	152	static
+MIMXRT1051xxxxB_Project.c:756:6:LogOutputTask	24	static
+MIMXRT1051xxxxB_Project.c:261:6:getSystemRunStatus	0	static
+MIMXRT1051xxxxB_Project.c:266:6:gatewayTypeWG2C	0	static
+MIMXRT1051xxxxB_Project.c:271:6:InitStatsTimer	24	static
+MIMXRT1051xxxxB_Project.c:289:10:StatsTimerValue	0	static
+MIMXRT1051xxxxB_Project.c:294:6:vApplicationStackOverflowHook	24	static
+MIMXRT1051xxxxB_Project.c:792:6:initLoggingProcess	16	static
+MIMXRT1051xxxxB_Project.c:662:5:main	72	static

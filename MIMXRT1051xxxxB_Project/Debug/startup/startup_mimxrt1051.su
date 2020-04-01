@@ -1,11 +1,11 @@
-startup_mimxrt1051.c:596:6:data_init	4	static
-startup_mimxrt1051.c:605:6:bss_init	0	static
-startup_mimxrt1051.c:630:6:ResetISR	8	static
 startup_mimxrt1051.c:723:14:NMI_Handler	0	static
 startup_mimxrt1051.c:727:14:HardFault_Handler	0	static
 startup_mimxrt1051.c:731:14:SVC_Handler	0	static
 startup_mimxrt1051.c:735:14:PendSV_Handler	0	static
 startup_mimxrt1051.c:739:14:SysTick_Handler	0	static
+startup_mimxrt1051.c:596:6:data_init	4	static
+startup_mimxrt1051.c:605:6:bss_init	0	static
+startup_mimxrt1051.c:630:6:ResetISR	8	static
 startup_mimxrt1051.c:747:14:IntDefaultHandler	0	static
 startup_mimxrt1051.c:757:11:DMA0_DMA16_IRQHandler	8	static
 startup_mimxrt1051.c:761:11:DMA1_DMA17_IRQHandler	8	static

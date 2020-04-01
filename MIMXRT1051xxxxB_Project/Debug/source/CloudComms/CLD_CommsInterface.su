@@ -1,0 +1,2 @@
+CLD_CommsInterface.c:40:17:CLD_BaseCommsChannelInitialise	24	static
+CLD_CommsInterface.c:71:17:CLD_SetTLSConfiguration	0	static

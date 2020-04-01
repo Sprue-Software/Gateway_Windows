@@ -1,0 +1,3 @@
+/home/colette/work/WG2_NewRepo/WG2_P0208_P0268/Port/Source/Applications/WisafeGateway/armgcc/CMakeFiles/edit_cache.dir
+/home/colette/work/WG2_NewRepo/WG2_P0208_P0268/Port/Source/Applications/WisafeGateway/armgcc/CMakeFiles/rebuild_cache.dir
+/home/colette/work/WG2_NewRepo/WG2_P0208_P0268/Port/Source/Applications/WisafeGateway/armgcc/CMakeFiles/ea3_wsgw.elf.dir

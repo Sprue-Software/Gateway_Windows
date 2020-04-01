@@ -1,0 +1,12 @@
+THA_Api.c:1073:6:_ScanHexValue	48	static
+THA_Api.c:1595:13:_TimerCallbackUpdateProperty	432	static
+THA_Api.c:267:24:_SubscribeToProperty.isra.1	32	static
+THA_Api.c:303:24:_CreateBoolProperty	64	static
+THA_Api.c:344:24:_CreateIntProperty	64	static
+THA_Api.c:630:24:_TestHandlerUpdate	1096	dynamic,bounded
+THA_Api.c:886:24:_CreateControlProperty	64	static
+THA_Api.c:743:24:_DeviceUpdate	88	static
+THA_Api.c:589:24:_PropertyUpdate	24	static
+THA_Api.c:525:13:_MessageQueueListener	264	static
+THA_Api.c:162:17:THA_Init	32	static
+THA_Api.c:196:17:THA_Start	16	static

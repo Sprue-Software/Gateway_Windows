@@ -1,12 +1,6 @@
-fsl_clock.h:1042:20:CLOCK_ControlGate	32	static
-fsl_clock.h:1059:20:CLOCK_EnableClock	16	static
-fsl_clock.h:1069:20:CLOCK_DisableClock	16	static
-fsl_trng.c:1221:17:trng_GetInstance	24	static
-fsl_trng.c:1283:10:TRNG_GetDefaultConfig	24	static
-fsl_trng.c:1337:17:trng_SetRetryCount	24	static
-fsl_trng.c:1360:17:trng_SetStatisticalCheckLimit	32	static
-fsl_trng.c:1505:17:trng_ApplyUserConfig	24	static
-fsl_trng.c:1588:17:trng_ReadEntropy	24	static
+fsl_trng.c:1221:17:trng_GetInstance.part.0	8	static
+fsl_clock.h:1042:20:CLOCK_ControlGate.part.1	8	static
+fsl_trng.c:1283:10:TRNG_GetDefaultConfig	12	static
 fsl_trng.c:1618:10:TRNG_Init	24	static
-fsl_trng.c:1673:6:TRNG_Deinit	16	static
-fsl_trng.c:1708:10:TRNG_GetRandomData	64	static
+fsl_trng.c:1673:6:TRNG_Deinit	8	static
+fsl_trng.c:1708:10:TRNG_GetRandomData	24	static

@@ -1,0 +1,4 @@
+power_monitor.c:116:13:power_monitor	56	static
+power_monitor.c:64:6:isMainsConnected	0	static
+power_monitor.c:73:6:toggleTabletUsbIdPin	16	static
+power_monitor.c:235:5:initPowerMonitor	32	static

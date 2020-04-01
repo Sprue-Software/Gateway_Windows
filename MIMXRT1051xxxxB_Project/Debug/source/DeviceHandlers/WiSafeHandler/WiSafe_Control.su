@@ -1,0 +1,10 @@
+WiSafe_Control.c:65:6:WiSafe_ControlBeginMissingNodeScan	24	static
+WiSafe_Control.c:81:6:WiSafe_ControlIssueTest	24	static
+WiSafe_Control.c:98:6:WiSafe_ControlLearnMode	32	static
+WiSafe_Control.c:114:6:WiSafe_ControlStopMissingNodeScan	24	static
+WiSafe_Control.c:128:6:WiSafe_ControlFlushAll	24	static
+WiSafe_Control.c:143:6:WiSafe_ControlFlush	24	static
+WiSafe_Control.c:159:6:WiSafe_ControlIdentifyDevice	24	static
+WiSafe_Control.c:174:6:WiSafe_ControlLeave	24	static
+WiSafe_Control.c:189:6:WiSafe_ControlSilenceAll	24	static
+WiSafe_Control.c:204:6:WiSafe_ControlLocate	24	static

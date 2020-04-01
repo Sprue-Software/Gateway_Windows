@@ -1,0 +1,3 @@
+GW_Handler.c:167:6:GW_Handler	392	static
+GW_Handler.c:133:17:ECOM_SendGWStatusToSubscriber	32	static
+GW_Handler.c:287:17:GW_Initialise	40	static

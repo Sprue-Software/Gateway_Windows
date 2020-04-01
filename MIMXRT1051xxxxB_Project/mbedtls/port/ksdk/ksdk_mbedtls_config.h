@@ -190,6 +190,7 @@
  * You can comment this macro if you provide your own alternate implementation. 
  * 
  */
+#define FSL_RTOS_FREE_RTOS 1
 #if USE_RTOS && defined(FSL_RTOS_FREE_RTOS)
 #define MBEDTLS_FREESCALE_FREERTOS_CALLOC_ALT
 #endif

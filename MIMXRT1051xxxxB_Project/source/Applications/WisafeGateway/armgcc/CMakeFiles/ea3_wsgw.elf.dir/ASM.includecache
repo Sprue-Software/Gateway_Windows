@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/colette/work/WG2_NewRepo/WG2_P0208_P0268/Port/Boards/SDK_2.3.0_EVK-MIMXRT1050/devices/MIMXRT1052/gcc/startup_MIMXRT1052.S
+

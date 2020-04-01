@@ -1,0 +1,10 @@
+ECOM_MessageBasedApi.c:76:16:ECOM_GetMessageQueue.part.0	8	static
+ECOM_MessageBasedApi.c:60:6:ECOM_Init	0	static
+ECOM_MessageBasedApi.c:76:16:ECOM_GetMessageQueue	8	static
+ECOM_MessageBasedApi.c:101:17:ECOM_RegisterOnUpdateFunction	0	static
+ECOM_MessageBasedApi.c:121:17:ECOM_RegisterMessageQueue	24	static
+ECOM_MessageBasedApi.c:158:17:ECOM_SendUpdateToSubscriber	160	static
+ECOM_MessageBasedApi.c:234:17:ECOM_SendThingStatusToSubscriber	64	static
+ECOM_MessageBasedApi.c:285:17:ECOM_SendLocalShadowStatusToSubscriber	24	static
+ECOM_MessageBasedApi.c:324:6:ECOM_IsDestinationQueueFull	16	static
+ECOM_MessageBasedApi.c:348:17:ECOM_SendPropertyDeletedToSubscriber	72	static

@@ -1,0 +1,3 @@
+Watchdog.c:49:6:Watchdog	8	static
+Watchdog.c:33:6:Check_all_is_OK_test	0	static
+Watchdog.c:69:6:Watchdog_Init	8	static
