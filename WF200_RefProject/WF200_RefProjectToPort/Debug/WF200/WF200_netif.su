@@ -1,0 +1,14 @@
+WF200_netif.c:58:13:lwip_set_sta_link_up	16	static
+WF200_netif.c:109:13:lwip_set_sta_link_down	16	static
+WF200_netif.c:157:13:lwip_set_ap_link_up	16	static
+WF200_netif.c:202:13:lwip_set_ap_link_down	16	static
+WF200_netif.c:247:15:WF200_Get_AP_NetIF	0	static
+WF200_netif.c:261:15:WF200_Get_STA_NetIF	0	static
+WF200_netif.c:275:6:WF200_Set_STA_NetIF	16	static
+WF200_netif.c:289:6:WF200_Set_AP_NetIF	16	static
+WF200_netif.c:304:13:low_level_init	24	static
+WF200_netif.c:356:14:low_level_output	40	static
+WF200_netif.c:424:21:low_level_input	32	static
+WF200_netif.c:460:6:sl_wfx_host_received_frame_callback	24	static
+WF200_netif.c:501:7:sta_ethernetif_init	16	static
+WF200_netif.c:529:7:ap_ethernetif_init	16	static

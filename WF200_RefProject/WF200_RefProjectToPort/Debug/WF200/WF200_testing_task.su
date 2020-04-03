@@ -1,0 +1,5 @@
+WF200_testing_task.c:131:13:WF200_Setup_Testing_Mode	24	static
+WF200_testing_task.c:186:13:WF200_CreateTestModeTask	32	static
+WF200_testing_task.c:243:6:WF200_TEST_ModeTask	168	static
+WF200_testing_task.c:605:6:httpsclient_task	16	static
+WF200_testing_task.c:619:6:TempInputTask	32	static

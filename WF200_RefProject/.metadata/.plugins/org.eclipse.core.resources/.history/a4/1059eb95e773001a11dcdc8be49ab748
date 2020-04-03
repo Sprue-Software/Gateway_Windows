@@ -1,0 +1,257 @@
+/*
+ * WF200_netif.c
+ *
+ *  Created on: 12 Mar 2020
+ *      Author: SMurva
+ */
+
+/*******************************************************************************
+ * Includes
+ ******************************************************************************/
+
+#include "WF200_host_common.h"
+#include "lwip/netifapi.h"
+#include "dhcp_server.h"
+
+#define USE_DHCP_CLIENT_DEFAULT    1   ///< If defined, DHCP is enabled, otherwise static address below is used
+
+
+/*******************************************************************************
+ * Variables
+ ******************************************************************************/
+
+struct netif sta_netif;
+struct netif ap_netif;
+int use_dhcp_client = USE_DHCP_CLIENT_DEFAULT;
+
+
+/*******************************************************************************
+ * FUNCTION PROTOTYPES
+ ******************************************************************************/
+
+
+/*******************************************************************************
+ * FUNCTION DEFINITIONS
+ ******************************************************************************/
+
+
+/**************************************************************************//**
+ * Set station link status to up.
+ *****************************************************************************/
+sl_status_t lwip_set_sta_link_up(void)
+{
+	err_t err;
+	sl_status_t WF200_DriverStatus = SL_STATUS_OK;
+
+	err = netifapi_netif_set_up(&sta_netif);
+
+	if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_sta_link_up - netif set up fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+	if(WF200_DriverStatus == SL_STATUS_OK)
+	{
+		err = netifapi_netif_set_link_up(&sta_netif);
+	}
+
+	if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_sta_link_up - netif set sta link up fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+	if (use_dhcp_client)
+	{
+/////	  dhcpclient_set_link_state(1);//   ??????????????????????????
+
+	}
+
+    return WF200_DriverStatus;
+}
+
+
+/**************************************************************************//**
+ * Set station link status to down.
+ *****************************************************************************/
+sl_status_t lwip_set_sta_link_down(void)
+{
+	err_t err;
+	sl_status_t WF200_DriverStatus = SL_STATUS_OK;
+
+    if (use_dhcp_client)
+    {
+ //    dhcpclient_set_link_state(0);
+    }
+
+    err = netifapi_netif_set_link_down(&sta_netif);
+
+	if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_sta_link_down - netif set sta link down fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+	err = netifapi_netif_set_down(&sta_netif);
+
+	if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_sta_link_down - netif set down fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+    return WF200_DriverStatus;
+}
+
+
+/**************************************************************************//**
+ * Set AP link status to up.
+ *****************************************************************************/
+sl_status_t lwip_set_ap_link_up(void)
+{
+	err_t err;
+	sl_status_t WF200_DriverStatus = SL_STATUS_OK;
+
+    err = netifapi_netif_set_up(&ap_netif);
+
+    if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_ap_link_up - netif set up fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+    err = netifapi_netif_set_link_up(&ap_netif);
+
+	if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_ap_link_up - netif set link up fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+    dhcpserver_start();
+
+    return WF200_DriverStatus;
+}
+
+
+/**************************************************************************//**
+ * Set AP link status to down.
+ *****************************************************************************/
+sl_status_t lwip_set_ap_link_down(void)
+{
+	err_t err;
+	sl_status_t WF200_DriverStatus = SL_STATUS_OK;
+
+	dhcpserver_stop();
+
+	err = netifapi_netif_set_link_down(&ap_netif);
+
+	if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_ap_link_down - netif set link down fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+    err = netifapi_netif_set_down(&ap_netif);
+
+	if(err != ERR_OK)
+	{
+		PRINTF("ERROR: lwip_set_ap_link_down - netif set down fail");
+		WF200_DriverStatus = SL_STATUS_FAIL;
+
+		// Infinite loop the release
+		// code may not have
+		WF200_DEBUG_TRAP;
+	}
+
+    return WF200_DriverStatus;
+}
+
+
+/***************************************************************************//**
+ * @brief
+ *
+ *
+ * @param[in]
+ *
+ * @return
+ *    None
+ ******************************************************************************/
+struct netif* WF200_Get_AP_NetIf(void)
+{
+	return &ap_netif;
+}
+
+
+/***************************************************************************//**
+ * @brief
+ *
+ *
+ * @param[in]
+ *
+ * @return
+ *    None
+ ******************************************************************************/
+struct netif* WF200_Get_STA_NetIf(void)
+{
+	return &sta_netif;
+}
+
+
+/***************************************************************************//**
+ * @brief
+ *
+ *
+ * @param[in]
+ *
+ * @return
+ *    None
+ ******************************************************************************/
+void WF200_Set_STA_NetIf(struct netif *netif)
+{
+	sta_netif = *netif;
+}
+
+
+/***************************************************************************//**
+ * @brief
+ *
+ *
+ * @param[in]
+ *
+ * @return
+ *    None
+ ******************************************************************************/
+void WF200_Set_AP_NetIf(struct netif *netif)
+{
+	ap_netif = *netif;
+}

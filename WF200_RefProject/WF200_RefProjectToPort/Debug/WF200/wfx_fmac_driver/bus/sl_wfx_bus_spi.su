@@ -1,0 +1,4 @@
+sl_wfx_bus_spi.c:24:13:sl_wfx_reg_read	48	static
+sl_wfx_bus_spi.c:53:13:sl_wfx_reg_write	48	static
+sl_wfx_bus_spi.c:83:13:sl_wfx_init_bus	16	static
+sl_wfx_bus_spi.c:116:13:sl_wfx_deinit_bus	8	static

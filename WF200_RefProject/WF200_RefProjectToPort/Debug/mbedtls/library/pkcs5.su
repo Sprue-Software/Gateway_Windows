@@ -1,0 +1,4 @@
+pkcs5.c:73:12:pkcs5_parse_pbkdf2_params	48	static
+pkcs5.c:128:5:mbedtls_pkcs5_pbes2	288	static
+pkcs5.c:235:5:mbedtls_pkcs5_pbkdf2_hmac	184	static
+pkcs5.c:371:5:mbedtls_pkcs5_self_test	136	static

@@ -1,0 +1,4 @@
+WF200_sta_mode_task.c:67:13:WF200_Setup_STA_Mode	16	static
+WF200_sta_mode_task.c:111:13:WF200_Create_STA_ModeTask	32	static
+WF200_sta_mode_task.c:176:6:WF200_STA_ModeTask	80	static
+WF200_sta_mode_task.c:347:20:WF200_STA_Mode_SetupIP_Add	40	static

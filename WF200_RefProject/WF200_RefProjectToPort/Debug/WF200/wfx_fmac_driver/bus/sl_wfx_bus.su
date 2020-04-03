@@ -1,0 +1,11 @@
+sl_wfx_constants.h:140:24:uint32_identity	8	static
+sl_wfx_bus.c:26:13:sl_wfx_reg_read_16	24	static
+sl_wfx_bus.c:43:13:sl_wfx_reg_write_16	24	static
+sl_wfx_bus.c:61:13:sl_wfx_reg_read_32	24	static
+sl_wfx_bus.c:79:13:sl_wfx_reg_write_32	16	static
+sl_wfx_bus.c:95:13:sl_wfx_data_read	24	static
+sl_wfx_bus.c:118:13:sl_wfx_data_write	24	static
+sl_wfx_bus.c:141:13:sl_wfx_apb_write	32	static
+sl_wfx_bus.c:157:13:sl_wfx_apb_write_32	24	static
+sl_wfx_bus.c:170:13:sl_wfx_apb_read_32	32	static
+sl_wfx_bus.c:198:20:sl_wfx_bus_access	32	static

@@ -1,0 +1,9 @@
+tcpecho_raw.c:72:1:tcpecho_raw_free	16	static
+tcpecho_raw.c:85:1:tcpecho_raw_close	16	static
+tcpecho_raw.c:99:1:tcpecho_raw_send	32	static
+tcpecho_raw.c:135:1:tcpecho_raw_error	24	static
+tcpecho_raw.c:147:1:tcpecho_raw_poll	24	static
+tcpecho_raw.c:173:1:tcpecho_raw_sent	32	static
+tcpecho_raw.c:196:1:tcpecho_raw_recv	40	static
+tcpecho_raw.c:251:1:tcpecho_raw_accept	32	static
+tcpecho_raw.c:289:1:tcpecho_raw_init	16	static

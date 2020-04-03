@@ -1,0 +1,3 @@
+sha1.c:416:5:mbedtls_sha1_ret	264	static
+sha1.c:441:6:mbedtls_sha1	24	static
+sha1.c:478:5:mbedtls_sha1_self_test	1312	static

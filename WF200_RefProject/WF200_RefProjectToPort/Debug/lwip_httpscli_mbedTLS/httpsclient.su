@@ -1,0 +1,7 @@
+httpsclient.c:50:12:lwipSend	24	static
+httpsclient.c:56:12:lwipRecv	24	static
+httpsclient.c:61:5:write_request	16	static
+httpsclient.c:90:5:read_request	16	static
+httpsclient.c:134:12:_iot_tls_verify_cert	1048	static
+httpsclient.c:165:5:https_client_tls_init	584	static
+httpsclient.c:371:6:https_client_tls_release	8	static

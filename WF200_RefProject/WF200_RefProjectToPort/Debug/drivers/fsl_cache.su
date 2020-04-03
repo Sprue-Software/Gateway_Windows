@@ -1,0 +1,11 @@
+core_cm7.h:2453:22:SCB_InvalidateDCache_by_Addr	24	static
+core_cm7.h:2480:22:SCB_CleanDCache_by_Addr	24	static
+core_cm7.h:2507:22:SCB_CleanInvalidateDCache_by_Addr	24	static
+fsl_cache.h:222:20:L1CACHE_InvalidateDCacheByRange	24	static
+fsl_cache.h:240:20:L1CACHE_CleanDCacheByRange	24	static
+fsl_cache.h:258:20:L1CACHE_CleanInvalidateDCacheByRange	24	static
+fsl_cache.c:497:6:L1CACHE_InvalidateICacheByRange	24	static
+fsl_cache.c:528:6:ICACHE_InvalidateByRange	16	static
+fsl_cache.c:551:6:DCACHE_InvalidateByRange	16	static
+fsl_cache.c:573:6:DCACHE_CleanByRange	16	static
+fsl_cache.c:595:6:DCACHE_CleanInvalidateByRange	16	static

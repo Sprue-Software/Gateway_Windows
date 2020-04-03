@@ -1,0 +1,11 @@
+dhcp_server.c:82:6:dhcpserver_remove_mac	16	static
+dhcp_server.c:101:13:dhcpserver_save_mac	24	static
+dhcp_server.c:127:11:dhcpserver_get_ip	16	static
+dhcp_server.c:151:6:dhcpserver_get_mac	8	static
+dhcp_server.c:164:6:dhcpserver_clear_stored_mac	8	static
+dhcp_server.c:184:17:dhcpserver_find_requested_ip	32	static
+dhcp_server.c:213:13:dhcpserver_fn	56	static
+dhcp_server.c:491:13:dhcpserver_start_prv	24	static
+dhcp_server.c:521:6:dhcpserver_start	8	static
+dhcp_server.c:529:13:dhcpserver_stop_prv	16	static
+dhcp_server.c:541:6:dhcpserver_stop	8	static

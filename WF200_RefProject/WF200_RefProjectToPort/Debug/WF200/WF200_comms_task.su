@@ -1,0 +1,5 @@
+WF200_comms_task.c:50:20:WF200_ReceiveFrames	16	static
+WF200_comms_task.c:76:13:WF200_Comms_Task	24	static
+WF200_comms_task.c:132:13:WF200_CreateCommsTask	32	static
+WF200_comms_task.c:191:13:WF200_CreateEventTask	32	static
+WF200_comms_task.c:249:13:WF200_Event_Task	48	static
